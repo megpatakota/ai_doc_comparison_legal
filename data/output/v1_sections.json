@@ -1,0 +1,674 @@
+[
+  {
+    "title": "TERMS AND CONDITIONS",
+    "Purpose": "This section provides the legal agreements governing the use of iTunes and related services.",
+    "line_id": "0",
+    "doc_id": "1"
+  },
+  {
+    "title": "PAYMENTS, TAXES, AND REFUND POLICY",
+    "Purpose": "This section outlines the obligations for payments, the details of taxes, and the refund conditions for purchases made through the Stores.",
+    "line_id": "8",
+    "doc_id": "1"
+  },
+  {
+    "title": "Right of cancellation",
+    "Purpose": "This section explains the user's right to cancel their order within a specified timeframe and the conditions surrounding such cancellations.",
+    "line_id": "11",
+    "doc_id": "1"
+  },
+  {
+    "title": "Effects of cancellation",
+    "Purpose": "This section details the reimbursement process following a cancellation notice from the user.",
+    "line_id": "14",
+    "doc_id": "1"
+  },
+  {
+    "title": "Exception to the right of cancellation",
+    "Purpose": "This section specifies cases where the right of cancellation does not apply, particularly for digital content.",
+    "line_id": "15",
+    "doc_id": "1"
+  },
+  {
+    "title": "Until a purchase is made",
+    "Purpose": "This section states that iTunes can change product prices at any time before a purchase is completed and clarifies the lack of price protection after purchase.",
+    "line_id": "23",
+    "doc_id": "1"
+  },
+  {
+    "title": "If a product becomes unavailable",
+    "Purpose": "This section describes the remedies available if a purchased product becomes unavailable or if technical issues affect delivery.",
+    "line_id": "24",
+    "doc_id": "1"
+  },
+  {
+    "title": "1-Click",
+    "Purpose": "This section explains how the 1-Click purchasing feature works for making quick transactions.",
+    "line_id": "1",
+    "doc_id": "1"
+  },
+  {
+    "title": "GIFT CERTIFICATES, ITUNES CARDS AND CODES, ALLOWANCES, AND CONTENT CODES",
+    "Purpose": "This section outlines the terms regarding the use, redemption, and restrictions of gift certificates and related codes.",
+    "line_id": "27",
+    "doc_id": "1"
+  },
+  {
+    "title": "GIFTS",
+    "Purpose": "This section specifies the rules for purchasing and redeeming gifts from the Stores, including eligibility criteria.",
+    "line_id": "32",
+    "doc_id": "1"
+  },
+  {
+    "title": "IMPORTANT SAFETY INFORMATION",
+    "Purpose": "This section provides health and safety warnings related to the use of products available through the Stores.",
+    "line_id": "34",
+    "doc_id": "1"
+  },
+  {
+    "title": "PRE-ORDERS",
+    "Purpose": "This section details the process and terms for pre-ordering products from the Stores.",
+    "line_id": "36",
+    "doc_id": "1"
+  },
+  {
+    "title": "FAMILY SHARING",
+    "Purpose": "This section describes the Family Sharing feature, which allows sharing of eligible products among family members.",
+    "line_id": "38",
+    "doc_id": "1"
+  },
+  {
+    "title": "FAMILY SHARING",
+    "Purpose": "This section describes the Family Sharing feature and its requirements for use.",
+    "line_id": "40",
+    "doc_id": "1"
+  },
+  {
+    "title": "ORGANISER RESPONSIBILITIES",
+    "Purpose": "This section outlines the responsibilities of the Organiser in relation to Family members and payment methods.",
+    "line_id": "41",
+    "doc_id": "1"
+  },
+  {
+    "title": "REMOVAL OF FAMILY MEMBERS",
+    "Purpose": "This section explains the implications and procedures for removing Family members from the Family account.",
+    "line_id": "42",
+    "doc_id": "1"
+  },
+  {
+    "title": "FAMILY SHARING",
+    "Purpose": "This section outlines the rules and conditions related to Family Sharing accounts and the implications of deleting accounts under this arrangement.",
+    "line_id": "43",
+    "doc_id": "1"
+  },
+  {
+    "title": "ELECTRONIC CONTRACTING",
+    "Purpose": "This section explains that users consent to enter into agreements electronically and outlines their responsibilities regarding electronic submissions.",
+    "line_id": "44",
+    "doc_id": "1"
+  },
+  {
+    "title": "TYPOGRAPHIC ERRORS",
+    "Purpose": "This section states that iTunes is not responsible for any typographical errors that may occur.",
+    "line_id": "46",
+    "doc_id": "1"
+  },
+  {
+    "title": "ITUNES STORE TERMS AND CONDITIONS",
+    "Purpose": "This section introduces the legal agreement governing the use of the iTunes Store service.",
+    "line_id": "47",
+    "doc_id": "1"
+  },
+  {
+    "title": "THE ITUNES STORE SERVICE",
+    "Purpose": "This section describes the role of iTunes in providing digital content and the limitations of their service.",
+    "line_id": "49",
+    "doc_id": "1"
+  },
+  {
+    "title": "REQUIREMENTS FOR USE OF THE SERVICE",
+    "Purpose": "This section outlines the eligibility requirements and necessary conditions for using the iTunes Store service.",
+    "line_id": "51",
+    "doc_id": "1"
+  },
+  {
+    "title": "YOUR ACCOUNT",
+    "Purpose": "This section highlights the responsibilities of users regarding their account security and maintenance.",
+    "line_id": "55",
+    "doc_id": "1"
+  },
+  {
+    "title": "AUTOMATIC DELIVERY AND DOWNLOADING PREVIOUS PURCHASES",
+    "Purpose": "This section explains the process for auto-downloading and accessing previously purchased iTunes Eligible Content on associated devices.",
+    "line_id": "59",
+    "doc_id": "1"
+  },
+  {
+    "title": "ITUNES MATCH",
+    "Purpose": "This section outlines the features and subscription terms for iTunes Match, which allows users to access their matched or uploaded music libraries remotely.",
+    "line_id": "69",
+    "doc_id": "1"
+  },
+  {
+    "title": "iTunes Match Content Access",
+    "Purpose": "This section explains the limitations on accessing iTunes Match content after the subscription ends.",
+    "line_id": "72",
+    "doc_id": "1"
+  },
+  {
+    "title": "Song Scanning and Matching",
+    "Purpose": "This section details how iTunes Match scans and matches songs from the user's library.",
+    "line_id": "73",
+    "doc_id": "1"
+  },
+  {
+    "title": "Genius Information Association",
+    "Purpose": "This section describes how using iTunes Match associates media information with the user's account for the Genius feature.",
+    "line_id": "74",
+    "doc_id": "1"
+  },
+  {
+    "title": "Lawful Content Usage",
+    "Purpose": "This section emphasizes that iTunes Match should only be used for lawfully acquired content.",
+    "line_id": "75",
+    "doc_id": "1"
+  },
+  {
+    "title": "iTunes Match Disclaimers",
+    "Purpose": "This section outlines the risks and limitations of using iTunes Match, including data loss.",
+    "line_id": "76",
+    "doc_id": "1"
+  },
+  {
+    "title": "PRIVACY",
+    "Purpose": "This section references Apple's Privacy Policy regarding user data handling.",
+    "line_id": "78",
+    "doc_id": "1"
+  },
+  {
+    "title": "Genius Feature Information Collection",
+    "Purpose": "This section describes how the Genius feature collects and uses information from the user's iTunes library.",
+    "line_id": "79",
+    "doc_id": "1"
+  },
+  {
+    "title": "Use of Information for Personalization",
+    "Purpose": "This section explains the ways in which Apple uses collected information to provide personalized recommendations.",
+    "line_id": "80",
+    "doc_id": "1"
+  },
+  {
+    "title": "Personalized Recommendations",
+    "Purpose": "This section outlines the purpose of the information collection, which is to create personalized playlists and recommendations.",
+    "line_id": "81",
+    "doc_id": "1"
+  },
+  {
+    "title": "Genius Feature Opt-In",
+    "Purpose": "This section explains the options available regarding the Genius feature and how users can control the sharing of their iTunes library information.",
+    "line_id": "85",
+    "doc_id": "1"
+  },
+  {
+    "title": "CONTENT AVAILABILITY",
+    "Purpose": "This section states that iTunes has the right to alter content options without prior notice.",
+    "line_id": "88",
+    "doc_id": "1"
+  },
+  {
+    "title": "USE OF CONTENT",
+    "Purpose": "This section details the licensing terms and security measures related to the use of iTunes Products.",
+    "line_id": "90",
+    "doc_id": "1"
+  },
+  {
+    "title": "USAGE RULES",
+    "Purpose": "This section outlines the specific rights and restrictions for personal use of iTunes Products.",
+    "line_id": "92",
+    "doc_id": "1"
+  },
+  {
+    "title": "FILM RENTALS",
+    "Purpose": "This section outlines the rules and restrictions for renting films, including device limitations and viewing timeframes.",
+    "line_id": "106",
+    "doc_id": "1"
+  },
+  {
+    "title": "CONTENT SECURITY",
+    "Purpose": "This section emphasizes the importance of not tampering with the Security Framework and outlines user responsibilities related to content usage.",
+    "line_id": "112",
+    "doc_id": "1"
+  },
+  {
+    "title": "SERVICE SECURITY",
+    "Purpose": "This section prohibits unauthorized access to the Service and outlines user obligations regarding software usage for access.",
+    "line_id": "114",
+    "doc_id": "1"
+  },
+  {
+    "title": "SEASON PASS, MULTI-PASS",
+    "Purpose": "This section describes the purchasing and refund policies for Season Passes and Multi-Passes, including conditions for content availability.",
+    "line_id": "116",
+    "doc_id": "1"
+  },
+  {
+    "title": "HIGH-DEFINITION (HD) PRODUCTS",
+    "Purpose": "This section clarifies that HD Products can only be viewed on HD devices but also provides standard-definition versions for non-HD device usage.",
+    "line_id": "118",
+    "doc_id": "1"
+  },
+  {
+    "title": "SUBMISSIONS TO THE SERVICE",
+    "Purpose": "This section discusses user responsibilities when submitting materials to the Service and ensuring compliance with laws and rights protections.",
+    "line_id": "120",
+    "doc_id": "1"
+  },
+  {
+    "title": "MATERIAL SUBMISSION",
+    "Purpose": "This section outlines the user's agreement to provide accurate submissions and grants iTunes rights to use those materials.",
+    "line_id": "120",
+    "doc_id": "1"
+  },
+  {
+    "title": "iTUNES MONITORING",
+    "Purpose": "This section details iTunes' rights to monitor submitted materials and take actions for violations of the agreement.",
+    "line_id": "122",
+    "doc_id": "1"
+  },
+  {
+    "title": "THIRD-PARTY MATERIALS",
+    "Purpose": "This section addresses the user's acknowledgment that iTunes is not responsible for third-party content and services.",
+    "line_id": "123",
+    "doc_id": "1"
+  },
+  {
+    "title": "OBJECTIONABLE MATERIAL",
+    "Purpose": "This section states the user's risk in encountering potentially offensive content while using the service.",
+    "line_id": "125",
+    "doc_id": "1"
+  },
+  {
+    "title": "INTELLECTUAL PROPERTY",
+    "Purpose": "This section outlines the intellectual property rights of iTunes and restrictions on the use of proprietary materials.",
+    "line_id": "127",
+    "doc_id": "1"
+  },
+  {
+    "title": "TERMINATION",
+    "Purpose": "This section describes the conditions under which iTunes may terminate the Agreement and the account of the user.",
+    "line_id": "133",
+    "doc_id": "1"
+  },
+  {
+    "title": "DISCLAIMER OF WARRANTIES; LIABILITY LIMITATIONS",
+    "Purpose": "This section outlines the limitations of iTunes' liability and disclaims any warranties regarding the uninterrupted or secure use of their Service.",
+    "line_id": "136",
+    "doc_id": "1"
+  },
+  {
+    "title": "CHANGES",
+    "Purpose": "This section outlines iTunes' rights to modify the Agreement and describes the implications of such modifications.",
+    "line_id": "149",
+    "doc_id": "1"
+  },
+  {
+    "title": "MISCELLANEOUS",
+    "Purpose": "This section details the entire agreement's scope and legal considerations concerning the Service and its enforceability.",
+    "line_id": "151",
+    "doc_id": "1"
+  },
+  {
+    "title": "About iTunes",
+    "Purpose": "This section provides the registered details of iTunes, including its company number and office address.",
+    "line_id": "156",
+    "doc_id": "1"
+  },
+  {
+    "title": "C  MAC APP STORE, APP STORE AND IBOOKS STORE TERMS AND CONDITIONS",
+    "Purpose": "This section introduces the legal agreement governing the user's interactions with the Mac App Store, App Store, and iBooks Store.",
+    "line_id": "157",
+    "doc_id": "1"
+  },
+  {
+    "title": "THE MAC APP STORE, APP STORE AND IBOOKS STORE",
+    "Purpose": "This section describes iTunes as the provider of the Stores and outlines the licensing terms for software and digital products.",
+    "line_id": "159",
+    "doc_id": "1"
+  },
+  {
+    "title": "REQUIREMENTS FOR USE OF THE STORES",
+    "Purpose": "This section establishes age-related account creation requirements for users of the Stores.",
+    "line_id": "161",
+    "doc_id": "1"
+  },
+  {
+    "title": "The Stores are available to you only in the United Kingdom",
+    "Purpose": "This section states the geographical limitation of the Stores' usage and the responsibility of the user to comply.",
+    "line_id": "163",
+    "doc_id": "1"
+  },
+  {
+    "title": "Use of the Stores requires compatible devices, Internet access, and certain software (fees may apply); may require periodic updates; and may be affected by the performance of these factors",
+    "Purpose": "This section outlines the technical requirements needed to access the Stores effectively.",
+    "line_id": "164",
+    "doc_id": "1"
+  },
+  {
+    "title": "YOUR ACCOUNT",
+    "Purpose": "This section describes the responsibilities associated with maintaining the security and confidentiality of the user\u2019s account.",
+    "line_id": "165",
+    "doc_id": "1"
+  },
+  {
+    "title": "In order to purchase and download App Store Products from the Stores, you must enter your Apple ID and password or use Touch ID to authenticate your Account for transactions",
+    "Purpose": "This section explains the authentication process required for transactions in the Stores.",
+    "line_id": "166",
+    "doc_id": "1"
+  },
+  {
+    "title": "You agree to provide accurate and complete information when you register with, and as you use, the Stores (\"Registration Data\")",
+    "Purpose": "This section emphasizes the importance of providing and maintaining accurate registration information for using the Stores.",
+    "line_id": "168",
+    "doc_id": "1"
+  },
+  {
+    "title": "AUTOMATIC DELIVERY AND DOWNLOADING PREVIOUS PURCHASES",
+    "Purpose": "This section discusses the options for automatically receiving and downloading previously purchased content.",
+    "line_id": "169",
+    "doc_id": "1"
+  },
+  {
+    "title": "When you first acquire Products (excluding products acquired from the Mac App Store) through the Stores (collectively, \u201cEligible Content\u201d)",
+    "Purpose": "This section details how users can choose to auto-download content to multiple devices after their initial purchase.",
+    "line_id": "170",
+    "doc_id": "1"
+  },
+  {
+    "title": "As an accommodation to you, subsequent to acquiring Eligible Content, you may download certain of such previously acquired Eligible Content onto any Associated Device",
+    "Purpose": "This section allows users to download previously acquired content onto associated devices while outlining limitations.",
+    "line_id": "171",
+    "doc_id": "1"
+  },
+  {
+    "title": "Association of Associated Devices is subject to the following terms:",
+    "Purpose": "This section specifies the terms and limitations regarding the association of devices for downloading content.",
+    "line_id": "172",
+    "doc_id": "1"
+  },
+  {
+    "title": "AUTOMATIC DELIVERY OF UPDATES",
+    "Purpose": "This section describes the automatic update process for apps purchased through the App Store and Mac App Store.",
+    "line_id": "179",
+    "doc_id": "1"
+  },
+  {
+    "title": "APP BUNDLES",
+    "Purpose": "This section explains the pricing and contents of App Bundles available for purchase.",
+    "line_id": "181",
+    "doc_id": "1"
+  },
+  {
+    "title": "PRIVACY",
+    "Purpose": "This section indicates that the Stores are governed by Apple's Privacy Policy.",
+    "line_id": "183",
+    "doc_id": "1"
+  },
+  {
+    "title": "USE OF PRODUCTS AND THE STORES",
+    "Purpose": "This section outlines the licensing agreement for using products purchased through iTunes and the rules governing their use.",
+    "line_id": "185",
+    "doc_id": "1"
+  },
+  {
+    "title": "CONTENT SECURITY",
+    "Purpose": "This section prohibits tampering with the Security Framework and discusses compliance monitoring by iTunes.",
+    "line_id": "187",
+    "doc_id": "1"
+  },
+  {
+    "title": "STORE SECURITY",
+    "Purpose": "This section emphasizes the importance of using authorized software to access the Stores and prohibits unauthorized access.",
+    "line_id": "189",
+    "doc_id": "1"
+  },
+  {
+    "title": "SUBMISSIONS TO THE STORES",
+    "Purpose": "This section allows users to interactively submit materials to areas of the Stores accessible to others.",
+    "line_id": "193",
+    "doc_id": "1"
+  },
+  {
+    "title": "iTunes has the right, but not the obligation, to monitor any materials submitted by you or otherwise available on the Stores, to investigate any reported or apparent violation of this Agreement, and to take any action that iTunes in its sole discretion deems appropriate, including, without limitation, termination hereunder or under Apple\u2019s Copyright Policy (http://www apple com/legal/copyright html)",
+    "Purpose": "This section grants iTunes the authority to monitor, investigate, and act against violations of the agreement.",
+    "line_id": "195",
+    "doc_id": "1"
+  },
+  {
+    "title": "THIRD-PARTY MATERIALS",
+    "Purpose": "This section clarifies that iTunes is not responsible for third-party content and reinforces users' obligations not to infringe on others' rights.",
+    "line_id": "196",
+    "doc_id": "1"
+  },
+  {
+    "title": "OBJECTIONABLE MATERIAL",
+    "Purpose": "This section informs users that they may encounter offensive content and absolves iTunes of liability regarding such material.",
+    "line_id": "198",
+    "doc_id": "1"
+  },
+  {
+    "title": "INTELLECTUAL PROPERTY",
+    "Purpose": "This section outlines the ownership of proprietary rights in the Stores and restricts users' unauthorized use of that material.",
+    "line_id": "200",
+    "doc_id": "1"
+  },
+  {
+    "title": "Notwithstanding any other provision of this Agreement, iTunes and the Publishers reserve the right to change, suspend, remove, or disable access to any Products, content, or other materials comprising a part of the Stores at any time without notice",
+    "Purpose": "This section establishes iTunes' right to alter or remove content and products without prior notification.",
+    "line_id": "202",
+    "doc_id": "1"
+  },
+  {
+    "title": "iTunes and/or its licensors own the copyright in the Stores, including the compilation of content, postings, links to other Internet resources, and descriptions of those resources",
+    "Purpose": "This section declares the copyright ownership of iTunes over the Stores' content and prohibits unauthorized use.",
+    "line_id": "203",
+    "doc_id": "1"
+  },
+  {
+    "title": "TERMINATION",
+    "Purpose": "This section details the conditions under which iTunes can terminate the Agreement and user access to the Stores.",
+    "line_id": "205",
+    "doc_id": "1"
+  },
+  {
+    "title": "DISCLAIMER OF WARRANTIES; LIABILITY LIMITATIONS",
+    "Purpose": "This section outlines the limitations of liability and disclaimers related to the services provided by iTunes.",
+    "line_id": "208",
+    "doc_id": "1"
+  },
+  {
+    "title": "CHANGES",
+    "Purpose": "This section explains iTunes' right to modify the Agreement and the implications of accepting or refusing those changes.",
+    "line_id": "221",
+    "doc_id": "1"
+  },
+  {
+    "title": "MISCELLANEOUS",
+    "Purpose": "This section outlines various legal provisions and clarifies the entire agreement between the user and iTunes, including compliance with laws and enforceability.",
+    "line_id": "223",
+    "doc_id": "1"
+  },
+  {
+    "title": "FURTHER MAC APP STORE AND APP STORE TERMS AND CONDITIONS",
+    "Purpose": "This section introduces additional terms specific to the Mac App Store and App Store usage.",
+    "line_id": "229",
+    "doc_id": "1"
+  },
+  {
+    "title": "LICENSE OF MAC APP STORE AND APP STORE PRODUCTS",
+    "Purpose": "This section details the licensing terms of the software products available through the App Store, distinguishing between Apple Products and Third-Party Products.",
+    "line_id": "230",
+    "doc_id": "1"
+  },
+  {
+    "title": "LICENSE OF APP STORE PRODUCTS",
+    "Purpose": "This section stipulates that the license to App Store Products is governed by specific agreements, emphasizing rights reserved by the publisher.",
+    "line_id": "232",
+    "doc_id": "1"
+  },
+  {
+    "title": "BINDING AGREEMENT",
+    "Purpose": "This section states that obtaining a license for each Apple Product constitutes a binding agreement between the user and iTunes.",
+    "line_id": "233",
+    "doc_id": "1"
+  },
+  {
+    "title": "THIRD-PARTY PRODUCTS",
+    "Purpose": "This section clarifies the user's agreement with the Publisher of Third-Party Products and limits iTunes' liability regarding those products.",
+    "line_id": "234",
+    "doc_id": "1"
+  },
+  {
+    "title": "IN-APP PURCHASES",
+    "Purpose": "This section describes the terms and conditions associated with acquiring additional content or services within App Store Products through in-app purchases.",
+    "line_id": "235",
+    "doc_id": "1"
+  },
+  {
+    "title": "IN-APP SUBSCRIPTIONS",
+    "Purpose": "This section explains the terms of automatic renewal and cancellation for subscription services available within App Store Products.",
+    "line_id": "238",
+    "doc_id": "1"
+  },
+  {
+    "title": "POPULAR NEAR ME",
+    "Purpose": "This section describes how Apple collects and uses anonymous location-based information to provide personalized recommendations for App Store products.",
+    "line_id": "240",
+    "doc_id": "1"
+  },
+  {
+    "title": "MAC APP STORE PRODUCT USAGE RULES",
+    "Purpose": "This section outlines the usage rules for downloading and using applications from the Mac App Store, including guidelines for individuals and organizations.",
+    "line_id": "247",
+    "doc_id": "1"
+  },
+  {
+    "title": "APP STORE PRODUCT USAGE RULES",
+    "Purpose": "This section details the rules for downloading and syncing applications from the App Store for individual and enterprise users on iOS devices.",
+    "line_id": "252",
+    "doc_id": "1"
+  },
+  {
+    "title": "MAC APP STORE AND APP STORE PRODUCT MAINTENANCE AND SUPPORT",
+    "Purpose": "This section clarifies the responsibilities of iTunes and Third-Party Publishers regarding maintenance and support for Apple Products and Third-Party Products.",
+    "line_id": "257",
+    "doc_id": "1"
+  },
+  {
+    "title": "LICENSED APPLICATION END USER LICENCE AGREEMENT",
+    "Purpose": "This section outlines the licensing terms for App Store Products, emphasizing the user's acceptance of the Standard EULA and the rights reserved by the Licensor.",
+    "line_id": "259",
+    "doc_id": "1"
+  },
+  {
+    "title": "a  Scope of License",
+    "Purpose": "This section details the limitations and restrictions of the license granted to users for the Licensed Application on Apple devices.",
+    "line_id": "261",
+    "doc_id": "1"
+  },
+  {
+    "title": "The terms of this licence will govern any upgrades provided by Licensor that replace and/or supplement the original Licensed Application, unless such upgrade is accompanied by a separate licence in which case the terms of that license will govern",
+    "Purpose": "This section specifies that the same licensing terms apply to any upgrades of the Licensed Application unless otherwise stated.",
+    "line_id": "262",
+    "doc_id": "1"
+  },
+  {
+    "title": "b  Consent to Use of Data",
+    "Purpose": "This section informs the user that Licensor may collect and utilize technical data for software updates, product support, and related services.",
+    "line_id": "263",
+    "doc_id": "1"
+  },
+  {
+    "title": "Termination",
+    "Purpose": "This section specifies the conditions under which the license to use the application can be terminated by either party.",
+    "line_id": "264",
+    "doc_id": "1"
+  },
+  {
+    "title": "Services; Third-Party Materials",
+    "Purpose": "This section outlines the access to external services and materials and states the user's responsibility for compliance and risks associated with their use.",
+    "line_id": "265",
+    "doc_id": "1"
+  },
+  {
+    "title": "External Services Disclaimer",
+    "Purpose": "This section disclaims liability for potentially offensive content encountered while using external services and clarifies the lack of responsibility for third-party materials.",
+    "line_id": "266",
+    "doc_id": "1"
+  },
+  {
+    "title": "Financial and Medical Information Disclaimer",
+    "Purpose": "This section advises against relying solely on financial and medical information obtained from external services, underlining the importance of consulting professionals.",
+    "line_id": "268",
+    "doc_id": "1"
+  },
+  {
+    "title": "Intellectual Property Rights",
+    "Purpose": "This section highlights the ownership rights of the licensor over the content and prohibits unauthorized use or modification of their proprietary materials.",
+    "line_id": "269",
+    "doc_id": "1"
+  },
+  {
+    "title": "EXTERNAL SERVICES",
+    "Purpose": "This section outlines user responsibilities and licensor limitations regarding the use of external services, emphasizing compliance with laws and disclaiming liability for misuse.",
+    "line_id": "270",
+    "doc_id": "1"
+  },
+  {
+    "title": "NO WARRANTY",
+    "Purpose": "This section clarifies that the licensor does not guarantee the performance or security of external services provided through the application.",
+    "line_id": "271",
+    "doc_id": "1"
+  },
+  {
+    "title": "Limitation of Liability",
+    "Purpose": "This section defines the circumstances under which the licensor is not liable for any damages or losses incurred by the user.",
+    "line_id": "274",
+    "doc_id": "1"
+  },
+  {
+    "title": "EXPORT RESTRICTIONS",
+    "Purpose": "This section prohibits the export or re-export of the licensed application except as permitted by U.S. law and outlines specific compliance obligations.",
+    "line_id": "282",
+    "doc_id": "1"
+  },
+  {
+    "title": "COMMERCIAL ITEMS",
+    "Purpose": "This section categorizes the licensed application and related documentation as 'Commercial Items' as defined by federal regulations.",
+    "line_id": "283",
+    "doc_id": "1"
+  },
+  {
+    "title": "i",
+    "Purpose": "This section states that English laws govern the license and usage of the Licensed Application.",
+    "line_id": "284",
+    "doc_id": "1"
+  },
+  {
+    "title": "FURTHER IBOOKS STORE TERMS AND CONDITIONS",
+    "Purpose": "This section likely introduces additional specific terms governing the iBooks Store.",
+    "line_id": "285",
+    "doc_id": "1"
+  },
+  {
+    "title": "LICENSE OF IBOOKS STORE PRODUCTS",
+    "Purpose": "This section explains the licensing agreement between the user and the third-party publisher for the iBooks Store products.",
+    "line_id": "286",
+    "doc_id": "1"
+  },
+  {
+    "title": "IBOOKS STORE PRODUCT USAGE RULES",
+    "Purpose": "This section outlines the rules governing the personal and non-commercial use of iBooks Store products.",
+    "line_id": "289",
+    "doc_id": "1"
+  }
+]
