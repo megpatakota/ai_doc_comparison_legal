@@ -41,6 +41,7 @@ def extract_titles(batch_text: str) -> List[Section]:
     response = completion(
         model="gpt-4o-mini",
         messages=[{"role": "user", "content": prompt}],
+        response_format=Sections
     )
     content = response.choices[0].message.content
     logger.debug("Raw LLM response: %s", content)

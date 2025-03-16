@@ -11,3 +11,15 @@ class Section(BaseModel):
 
 class Sections(BaseModel):
     sections: List[Section]
+
+class Mapping(BaseModel):
+    title: str
+    line_id: str
+    doc_id: str
+
+class StandardizedSection(BaseModel):
+    standardized_title: str
+    mappings: List[Mapping]
+
+class StandardizedSections(BaseModel):
+    sections: List[StandardizedSection]

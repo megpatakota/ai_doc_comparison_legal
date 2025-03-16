@@ -1,0 +1,38 @@
+Compare the sections from the two JSON files and create standardized titles for similar sections.
+
+For each group of similar sections across documents, create a standardized entry with:
+1. A "standardized_title" that best represents all similar sections
+2. A "mappings" array containing all the original sections that map to this standardized title
+
+Follow this format:
+[
+  {
+    "standardized_title": "Introduction",
+    "mappings": [
+      {"title": "TERMS AND CONDITIONS", "line_id": "0", "doc_id": "1"},
+      {"title": "INTRODUCTION TO OUR SERVICES", "line_id": "2", "doc_id": "2"}
+    ]
+  },
+  {
+    "standardized_title": "Payment and Refunds",
+    "mappings": [
+      {"title": "PAYMENTS, TAXES, AND REFUND POLICY", "line_id": "8", "doc_id": "1"},
+      {"title": "PAYMENTS, TAXES AND REFUNDS", "line_id": "5", "doc_id": "2"}
+    ]
+  }
+]
+
+Guidelines for standardization:
+- Group sections with similar content/purpose even if titles differ
+- Choose clear, concise standardized titles
+- Include ALL sections from both documents
+- If a section appears in only one document, it still gets a standardized title with just one mapping
+- Preserve the exact original title, line_id, and doc_id in the mappings
+
+Return only a valid JSON array with the standardized sections.
+
+Document 1 sections:
+{{ doc1_sections }}
+
+Document 2 sections:
+{{ doc2_sections }}
