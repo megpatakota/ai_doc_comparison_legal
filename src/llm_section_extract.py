@@ -28,70 +28,46 @@ def extract_titles(batch_text: str) -> List[Section]:
     """
     Extract section titles and their purposes from a batch of text using LLM.
     
-    Args:
-        batch_text (str): The text batch to analyze for sections.
-        
-    Returns:
-        List[Section]: A list of Section objects containing titles and purposes.
-        
     Raises:
-        JSONDecodeError: If the LLM response cannot be parsed as JSON.
-        ValidationError: If the parsed JSON doesn't match the expected schema.
+        json.JSONDecodeError: If the LLM response cannot be parsed as JSON.
+        ValidationError: If any section fails pydantic validation.
     """
+    # Render the prompt (assumes the template exists and is valid)
+    template = env.get_template("extract_sections.j2")
+    prompt = template.render(text=batch_text)
+    logger.info("Sending request to LLM for section extraction")
+    
+    # Send prompt to LLM
+    response = completion(
+        model="gpt-4o-mini",
+        messages=[{"role": "user", "content": prompt}],
+    )
+    content = response.choices[0].message.content
+    logger.debug("Raw LLM response: %s", content)
+    
+    # Parse the JSON response
     try:
-        # Load and render the prompt template
-        template = env.get_template("extract_sections.j2")
-        prompt = template.render(text=batch_text)
-        logger.info("Sending request to LLM for section extraction")
-        response = completion(
-            model="gpt-4o-mini",
-            messages=[{"role": "user", "content": prompt}],
-        )
-        
-        # Parse the JSON response
-        content = response.choices[0].message.content
-        logger.debug(f"Raw LLM response: {content}")
-        
-        try:
-            sections_data = json.loads(content)
-            # Handle both array format and {sections: [...]} format
-            if isinstance(sections_data, list):
-                sections = sections_data
-            elif isinstance(sections_data, dict) and "sections" in sections_data:
-                sections = sections_data["sections"]
-            else:
-                logger.warning(f"Unexpected response format: {sections_data}")
-                sections = []
-                
-            logger.info(f"Successfully extracted {len(sections)} sections")
-            
-            # Add detailed logging for each section
-            section_objects = []
-            for i, section_data in enumerate(sections, 1):
-                # Ensure line_id is present
-                if "line_id" not in section_data:
-                    logger.warning(f"Section {i} missing line_id: {section_data}")
-                    section_data["line_id"] = "unknown"
-                
-                # Create Section object
-                try:
-                    section = Section(**section_data)
-                    print(f"Section {i}: {section_data}")
-                    section_objects.append(section)
-                except ValidationError as e:
-                    logger.error(f"Validation error for section {i}: {e}")
-                    logger.debug(f"Section data was: {section_data}")
-            
-            return section_objects
-            
-        except json.JSONDecodeError as e:
-            logger.error(f"Failed to parse JSON response: {e}")
-            logger.debug(f"Response content was: {content}")
-            return []
-
-    except Exception as e:
-        logger.error(f"Unexpected error in extract_titles: {str(e)}")
+        sections_data = json.loads(content)
+    except json.JSONDecodeError as e:
+        logger.error("Failed to parse JSON response: %s", e)
+        raise
+    
+    # Handle both list format and dictionary with "sections" key
+    sections = sections_data if isinstance(sections_data, list) else sections_data.get("sections", [])
+    if not sections:
+        logger.warning("No sections found in response")
         return []
+    
+    logger.info("Successfully extracted %d sections", len(sections))
+    
+    # Validate and parse sections using pydantic
+    try:
+        sections_obj = Sections(sections=sections)
+    except ValidationError as e:
+        logger.error("Validation error: %s", e)
+        raise
+    
+    return sections_obj.sections
 
 def process_batches(batches: List[str]) -> List[Section]:
     """

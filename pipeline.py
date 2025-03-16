@@ -1,6 +1,6 @@
 from src.text_process import extract_text_from_docx, batch_text
 from src.llm_section_extract import process_batches
-from src.file_io import save_sections
+from src.file_io import save_sections, save_extract_text_from_docx
 import os
 import logging
 
@@ -11,6 +11,7 @@ logger = logging.getLogger(__name__)
 # Define input and output directories
 input_folder = "data/input"
 output_folder = "data/output"
+input_temp_folder = "data/temp"
 
 # Ensure the output directory exists
 os.makedirs(output_folder, exist_ok=True)
@@ -30,9 +31,12 @@ for file in input_files:
         
         # Extract text from the docx file
         text = extract_text_from_docx(input_path)
-        
+        # save the extracted text to a text file
+        save_extract_text_from_docx(text, os.path.join(input_temp_folder, f"{os.path.splitext(file)[0]}.txt"))
+
         # Batch the text for processing
         batches = batch_text(text)
+
         
         # Process each batch to extract sections
         sections = process_batches(batches)

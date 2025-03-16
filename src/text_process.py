@@ -1,6 +1,7 @@
 import docx
 import logging
 
+
 # Set up logging configuration
 logging.basicConfig(
     level=logging.INFO,

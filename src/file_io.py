@@ -34,3 +34,10 @@ def load_sections(filename):
     with open(filename, "r") as f:
         sections = json.load(f)
     return [Section(**section) for section in sections] 
+
+# save the text from extract_text_from_docx to a text file
+def save_extract_text_from_docx(text, filename):
+    with open(filename, "w") as f:
+        f.write(text)
+    print(f"✅ Saved text to {filename}")
+    return filename
