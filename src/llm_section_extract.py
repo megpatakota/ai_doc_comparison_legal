@@ -38,7 +38,7 @@ def extract_titles(batch_text: str) -> List[Section]:
     
     # Send prompt to LLM
     response = completion(
-        model="gpt-4o-mini",
+        model="gpt-4o",
         temperature=1,
         messages=[{"role": "user", "content": prompt}],
         response_format=Sections

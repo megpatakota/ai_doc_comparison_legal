@@ -1,97 +1,35 @@
-You are given two JSON arrays. Each array represents the sections from one Terms & Conditions document:
+You are an expert in standardising section titles in legal documents.
+I will show you two lists of sections extracted from two documents, A and B.
+For each section in document A, your task is to find the equivalent section in document B. There may be multiple sections from document B that are equivalent to a single section in document A.
+You should show your reasoning, when you're figuring out which sections are equivalent.
+Once you have performed the mapping, you can assign a standardized title to the pair.
+When I say "equivalent", I mean sections that are operationally serving the same purpose, even if their titles differ.
+Each section from both documents must be mapped once and only once to a standardized group.
 
-- Document 1 sections: {{ v1_sections }}
-- Document 2 sections: {{ v2_sections }}
+# Examples
 
-Each element in these arrays has at least the following keys:
-{
-  "title": "ORIGINAL SECTION TITLE",
-  "Purpose": "Single-sentence description (not relevant to final output)",
-  "line_id": "LINE ID FROM DOC",
-  "doc_id": "DOC IDENTIFIER"
-}
+## Examples of Equivalent Sections: These sections should be grouped together
+- "Termination" and "Ending the Agreement"
+- "Usage Rules" and "USAGE RULES"
+- "Governing Law" and "Applicable Law"
+- "Confidentiality" and "Non-Disclosure"
+- "Dispute Resolution" and "Arbitration"
+- "Introduction" and "Introduction"
 
----
+## Examples of Non-Equivalent Sections: These sections should not be grouped together
+- "Indemnity" and "Liability"
+- "Payment" and "Refunds"
+- "Assignment" and "Subcontracting"
+- "Termination" and "Term"
+- "Intellectual Property" and "Payment Terms"
+- "Force Majeure" and "Data Protection"
 
-YOUR TASK:
+I'll start you off by pre-filling some of the JSON structure. You need to fill in the blanks, i.e. "doc_b_section" and "standardised_title":
 
-1. **Compare & Group Similar Sections**  
-   - Identify which sections from both documents share similar meaning or purpose (even if their original titles differ).
-   - You decide what “similar” means by comparing the **titles** (or relevant synonyms / context).
-   - Each section from **both** documents must be mapped once and only once to a standardized group.
+{{ pre_filled_template }}
 
-2. **Handling Repeated Sections**  
-   - If a section title appears multiple times **within the same document** (i.e., same `title` but different `line_id`s), treat them as **separate** sections.
-   - Each of these repeated sections must still appear in your final output, under a standardized group.
+And here are the sections from document B, which you need to map to the sections from document A:
 
-3. **Create Standardized Titles**  
-   - For each group of similar sections, pick a concise, **clear** standardized title (e.g., "Introduction", "Payments and Refunds", "Limitation of Liability", etc.).
-   - If there is only one section in a group (no similar match), give that section an appropriate standardized title anyway.
+{{ document_b}}
 
-4. **Build the Final JSON Array**  
-   - Return an array of objects, where each object has the form:
-     ```json
-     {
-       "standardized_title": "A single unified title for the group",
-       "mappings": [
-         {
-           "title": "ORIGINAL SECTION TITLE FROM DOC",
-           "line_id": "LINE ID",
-           "doc_id": "DOC IDENTIFIER"
-         },
-         ...
-       ]
-     }
-     ```
-   - **No extraneous keys** (such as `"Purpose"`) should appear in `"mappings"`.
-   - **No extra text** outside the JSON array — only return the JSON.
-
-5. **Include All Sections**  
-   - Every section from both documents must appear exactly once under one of the standardized titles.
-   - If a given section does not match any other section (i.e., it is “unmapped” to a similar group), place it in a group whose `"standardized_title"` is `"unmapped"`.
-
-6. **Output Requirements**  
-   - Only return the final JSON array (no additional text).
-
----
-
-### **EXAMPLE OUTPUT** (structure only):
-
-```json
-[
-  {
-    "standardized_title": "Introduction",
-    "mappings": [
-      {
-        "title": "TERMS AND CONDITIONS",
-        "line_id": "0",
-        "doc_id": "1"
-      },
-      {
-        "title": "TERMS AND CONDITIONS",
-        "line_id": "20",
-        "doc_id": "1"
-      },
-      {
-        "title": "INTRODUCTION TO OUR SERVICES",
-        "line_id": "2",
-        "doc_id": "2"
-      }
-    ]
-  },
-  {
-    "standardized_title": "Payment and Refunds",
-    "mappings": [
-      {
-        "title": "PAYMENTS, TAXES, AND REFUND POLICY",
-        "line_id": "8",
-        "doc_id": "1"
-      },
-      {
-        "title": "PAYMENTS, TAXES AND REFUNDS",
-        "line_id": "5",
-        "doc_id": "2"
-      }
-    ]
-  }
-]
+So you must give back the entire pre-filled JSON I showed you, with the blanks filled in. Please do so now.

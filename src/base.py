@@ -4,22 +4,25 @@ from typing import List, Optional
 # Define a Pydantic model to enforce the JSON structure
 class Section(BaseModel):
     title: str
-    Purpose: str  # Note: Capital P to match the template output
-    line_id: str  # Make sure this field exists
+    description: str  
+    start_id: str
+    end_id: str 
     doc_id: Optional[str] = None  # Document identifier, optional with default None
 
 
 class Sections(BaseModel):
     sections: List[Section]
 
-class Mapping(BaseModel):
-    title: str
-    line_id: str
-    doc_id: str
+# class Mapping(BaseModel):
+#     title: str
+#     line_id: str
+#     doc_id: str
 
 class StandardizedSection(BaseModel):
-    standardized_title: str
-    mappings: List[Mapping]
+    doc_a_section: Section
+    reasoning: str
+    doc_b_sections: Optional[List[Section]] = None
+    standardised_title: str
 
 class StandardizedSections(BaseModel):
     sections: List[StandardizedSection]

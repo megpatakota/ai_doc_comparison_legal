@@ -54,3 +54,9 @@ def load_sections(filename):
         sections = json.load(f)
     return [Section(**section) for section in sections] 
 
+
+def load_txt(filename):
+    with open(filename, "r") as f:
+        text = f.read()
+    print(f"✅ Loaded text from {filename}")
+    return text

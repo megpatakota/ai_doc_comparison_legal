@@ -1,289 +1,356 @@
 {
     "sections": [
         {
-            "standardized_title": "Introduction",
-            "mappings": [
+            "doc_a_section": {
+                "title": "A  INTRODUCTION TO OUR SERVICES",
+                "description": "This section outlines the basic framework for using Apple Services, detailing what users can access, how to designate a home country, and the necessary requirements for using the services like hardware and software compatibility.",
+                "start_id": "2",
+                "end_id": "3",
+                "doc_id": "2"
+            },
+            "reasoning": "The introduction sections in both documents set the foundational understanding and framework for the services offered.",
+            "doc_b_sections": [
                 {
                     "title": "TERMS AND CONDITIONS",
-                    "line_id": "0",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "INTRODUCTION TO OUR SERVICES",
-                    "line_id": "2",
-                    "doc_id": "2"
-                }
-            ]
-        },
-        {
-            "standardized_title": "Payment and Refund Policies",
-            "mappings": [
-                {
-                    "title": "ITUNES STORE, MAC APP STORE, APP STORE AND IBOOKS STORE TERMS OF SALE",
-                    "line_id": "1",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "USING OUR SERVICES",
-                    "line_id": "4",
-                    "doc_id": "2"
-                },
-                {
-                    "title": "PAYMENTS, TAXES AND REFUNDS",
-                    "line_id": "5",
-                    "doc_id": "2"
-                }
-            ]
-        },
-        {
-            "standardized_title": "Payments, Taxes, and Refund Policy",
-            "mappings": [
-                {
-                    "title": "PAYMENTS, TAXES, AND REFUND POLICY",
-                    "line_id": "8",
+                    "description": "Sets the foundational rules that govern the relationship between the user and the service provider, including acceptance of the agreement and its scope.",
+                    "start_id": "0",
+                    "end_id": "6",
                     "doc_id": "1"
                 }
-            ]
+            ],
+            "standardised_title": "Introduction"
         },
         {
-            "standardized_title": "Account Management",
-            "mappings": [
+            "doc_a_section": {
+                "title": "B  USING OUR SERVICES",
+                "description": "Explains the policies surrounding the acquisition of content via transactions, how licenses are obtained, and details the process and terms for using various payment methods.",
+                "start_id": "4",
+                "end_id": "4",
+                "doc_id": "2"
+            },
+            "reasoning": "This section speaks about usage, acquisition, and transaction concepts, aligning with terms and conditions concerning sales.",
+            "doc_b_sections": [
+                {
+                    "title": "A ITUNES STORE, MAC APP STORE, APP STORE, AND IBOOKS STORE TERMS OF SALE",
+                    "description": "Details the terms related to purchasing, including payments, taxes, refund policies, rights of cancellation, and more for transactions through iTunes and other stores.",
+                    "start_id": "7",
+                    "end_id": "25",
+                    "doc_id": "1"
+                }
+            ],
+            "standardised_title": "Using Our Services and Transactions"
+        },
+        {
+            "doc_a_section": {
+                "title": "PAYMENTS, TAXES AND REFUNDS",
+                "description": "Discusses the transaction process for acquiring content, including payment methods, taxes, order cancellations, and refunds. It also covers various scenarios when transactions might need to be canceled or refunded.",
+                "start_id": "5",
+                "end_id": "22",
+                "doc_id": "2"
+            },
+            "reasoning": "Both sections extensively cover payment-related processes, taxes, refunds, and related policies.",
+            "doc_b_sections": [
+                {
+                    "title": "A ITUNES STORE, MAC APP STORE, APP STORE, AND IBOOKS STORE TERMS OF SALE",
+                    "description": "Details the terms related to purchasing, including payments, taxes, refund policies, rights of cancellation, and more for transactions through iTunes and other stores.",
+                    "start_id": "7",
+                    "end_id": "25",
+                    "doc_id": "1"
+                }
+            ],
+            "standardised_title": "Payments, Taxes, and Refunds"
+        },
+        {
+            "doc_a_section": {
+                "title": "ACCOUNT",
+                "description": "Details account usage for Apple Services, including the creation of Apple IDs, age requirements, and maintaining account security to prevent unauthorized access or use.",
+                "start_id": "23",
+                "end_id": "26",
+                "doc_id": "2"
+            },
+            "reasoning": "User accounts, security, and responsibilities are discussed in both sections, focusing on defining user responsibilities.",
+            "doc_b_sections": [
                 {
                     "title": "YOUR ACCOUNT",
-                    "line_id": "165",
+                    "description": "Explains the responsibility of maintaining account security, importance of keeping information accurate, and how account data is used.",
+                    "start_id": "55",
+                    "end_id": "58",
                     "doc_id": "1"
-                },
-                {
-                    "title": "ACCOUNT",
-                    "line_id": "23",
-                    "doc_id": "2"
                 }
-            ]
+            ],
+            "standardised_title": "Account"
         },
         {
-            "standardized_title": "Privacy",
-            "mappings": [
+            "doc_a_section": {
+                "title": "PRIVACY",
+                "description": "Briefly references Apple's Privacy Policy, indicating the applicability of the Privacy Policy to all users of Apple's Services.",
+                "start_id": "27",
+                "end_id": "28",
+                "doc_id": "2"
+            },
+            "reasoning": "Privacy sections in both documents cover information use and Apple's rights to user data information.",
+            "doc_b_sections": [
                 {
                     "title": "PRIVACY",
-                    "line_id": "77",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "PRIVACY",
-                    "line_id": "183",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "PRIVACY",
-                    "line_id": "27",
-                    "doc_id": "2"
-                }
-            ]
-        },
-        {
-            "standardized_title": "Content Availability and Usage",
-            "mappings": [
-                {
-                    "title": "CONTENT AVAILABILITY",
-                    "line_id": "88",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "CONTENT AND SERVICE AVAILABILITY",
-                    "line_id": "66",
-                    "doc_id": "2"
-                }
-            ]
-        },
-        {
-            "standardized_title": "Usage Rules",
-            "mappings": [
-                {
-                    "title": "USE OF CONTENT",
-                    "line_id": "90",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "SERVICES AND CONTENT USAGE RULES",
-                    "line_id": "29",
-                    "doc_id": "2"
-                },
-                {
-                    "title": "MAC APP STORE PRODUCT USAGE RULES",
-                    "line_id": "247",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "APP STORE PRODUCT USAGE RULES",
-                    "line_id": "252",
+                    "description": "Details Apple's privacy practices surrounding user data collected via features like Genius and explains how this data is leveraged for user benefits.",
+                    "start_id": "77",
+                    "end_id": "87",
                     "doc_id": "1"
                 }
-            ]
+            ],
+            "standardised_title": "Privacy"
         },
         {
-            "standardized_title": "Submission Responsibility",
-            "mappings": [
+            "doc_a_section": {
+                "title": "SERVICES AND CONTENT USAGE RULES",
+                "description": "Outlines permissible uses of Apple Services and Content, emphasizing rules against unauthorized usage, sharing, tampering, and maintaining integrity of play counts, downloads, and reviews.",
+                "start_id": "29",
+                "end_id": "40",
+                "doc_id": "2"
+            },
+            "reasoning": "Both sections define the limitations and rules on the use of services and highlight unauthorized activities.",
+            "doc_b_sections": [
                 {
-                    "title": "SUBMISSIONS TO THE STORES",
-                    "line_id": "193",
+                    "title": "USAGE RULES",
+                    "description": "Defines specific rules governing the use of iTunes products, including personal use limitations and device restrictions.",
+                    "start_id": "92",
+                    "end_id": "105",
                     "doc_id": "1"
-                },
-                {
-                    "title": "YOUR SUBMISSIONS TO OUR SERVICES",
-                    "line_id": "70",
-                    "doc_id": "2"
                 }
-            ]
+            ],
+            "standardised_title": "Service and Content Usage Rules"
         },
         {
-            "standardized_title": "Family Sharing",
-            "mappings": [
+            "doc_a_section": {
+                "title": "DOWNLOADS",
+                "description": "Contains rules regarding downloading and re-downloading content, including limitations on download amounts and expiry of downloaded content.",
+                "start_id": "57",
+                "end_id": "60",
+                "doc_id": "2"
+            },
+            "reasoning": "Both address downloading services and re-downloading, focusing on rights and limitations regarding download links.",
+            "doc_b_sections": [
+                {
+                    "title": "AUTOMATIC DELIVERY AND DOWNLOADING PREVIOUS PURCHASES",
+                    "description": "Offers details for downloading purchased content on multiple devices, along with stipulations on device associations.",
+                    "start_id": "59",
+                    "end_id": "69",
+                    "doc_id": "1"
+                }
+            ],
+            "standardised_title": "Downloads"
+        },
+        {
+            "doc_a_section": {
+                "title": "SUBSCRIPTIONS",
+                "description": "Explains the terms for Paid Subscriptions, including automatic renewals, billing processes, and details on how to manage or cancel these subscriptions.",
+                "start_id": "61",
+                "end_id": "65",
+                "doc_id": "2"
+            },
+            "reasoning": "Both sections provide explicit details and guidelines regarding subscription services, cancellation, and billing.",
+            "doc_b_sections": [
+                {
+                    "title": "SEASON PASS, MULTI-PASS",
+                    "description": "Outlines terms related to purchasing Season Pass and Multi-Pass, including duration, renewal, and refund policies.",
+                    "start_id": "116",
+                    "end_id": "117",
+                    "doc_id": "1"
+                }
+            ],
+            "standardised_title": "Subscriptions"
+        },
+        {
+            "doc_a_section": {
+                "title": "THIRD-PARTY DEVICES AND EQUIPMENT",
+                "description": "Describes the limitations and conditions for using Apple Services on non-Apple devices and interacting with third-party equipment.",
+                "start_id": "68",
+                "end_id": "69",
+                "doc_id": "2"
+            },
+            "reasoning": "Both sections explore conditions governing the use of services on third-party devices or material.",
+            "doc_b_sections": [
+                {
+                    "title": "THIRD-PARTY MATERIALS",
+                    "description": "Discusses materials or services from third parties accessed via the service, releasing iTunes from liability regarding their accuracy or use.",
+                    "start_id": "123",
+                    "end_id": "124",
+                    "doc_id": "1"
+                }
+            ],
+            "standardised_title": "Third-Party Devices and Equipment"
+        },
+        {
+            "doc_a_section": {
+                "title": "C  YOUR SUBMISSIONS TO OUR SERVICES",
+                "description": "Discusses the guidelines for users submitting content like reviews or ratings to Apple Services and the licensing agreement with Apple for such submitted content.",
+                "start_id": "70",
+                "end_id": "81",
+                "doc_id": "2"
+            },
+            "reasoning": "Both sections address user submissions related to user-generated content, guidelines, and licensing conditions.",
+            "doc_b_sections": [
+                {
+                    "title": "SUBMISSIONS TO THE SERVICE",
+                    "description": "Covers user submissions to the service, describing rights, responsibilities, and permissions granted to iTunes for use of submitted content.",
+                    "start_id": "120",
+                    "end_id": "122",
+                    "doc_id": "1"
+                }
+            ],
+            "standardised_title": "User Submissions"
+        },
+        {
+            "doc_a_section": {
+                "title": "D  FAMILY SHARING",
+                "description": "Outlines the terms for Family Sharing, including how family members can share content, subscriptions, and the responsibilities of the Family organizer.",
+                "start_id": "82",
+                "end_id": "87",
+                "doc_id": "2"
+            },
+            "reasoning": "Family Sharing concepts are explored by detailing features allowing shared access, roles, permissions, and responsibilities of users.",
+            "doc_b_sections": [
                 {
                     "title": "FAMILY SHARING",
-                    "line_id": "82",
-                    "doc_id": "2"
+                    "description": "Explains the Family Sharing feature which allows shared access to store products among family members, including roles, permissions, and responsibilities.",
+                    "start_id": "38",
+                    "end_id": "43",
+                    "doc_id": "1"
                 }
-            ]
+            ],
+            "standardised_title": "Family Sharing"
         },
         {
-            "standardized_title": "Termination of Services",
-            "mappings": [
+            "doc_a_section": {
+                "title": "E  SERIES PASS AND MULTI-PASS",
+                "description": "Details about purchasing and receiving television content as it becomes available through series or multi-passes, including payment and availability terms.",
+                "start_id": "88",
+                "end_id": "89",
+                "doc_id": "2"
+            },
+            "reasoning": "Both sections cover purchasing and terms of passes that allow content accessing, including availability and renewal.",
+            "doc_b_sections": [
+                {
+                    "title": "SEASON PASS, MULTI-PASS",
+                    "description": "Outlines terms related to purchasing Season Pass and Multi-Pass, including duration, renewal, and refund policies.",
+                    "start_id": "116",
+                    "end_id": "117",
+                    "doc_id": "1"
+                }
+            ],
+            "standardised_title": "Season and Multi-Pass"
+        },
+        {
+            "doc_a_section": {
+                "title": "F  ADDITIONAL APP STORE TERMS (EXCLUDING APPLE ARCADE APPS)",
+                "description": "Describes licensing issues for App Store content, outlining the responsibilities and limitations for App Providers and Apple related to App Store transactions.",
+                "start_id": "90",
+                "end_id": "101",
+                "doc_id": "2"
+            },
+            "reasoning": "Both sections outline further details and terms specific to the App Store or product categories aligning with store functionality.",
+            "doc_b_sections": [
+                {
+                    "title": "FURTHER IBOOKS STORE TERMS AND CONDITIONS",
+                    "description": "Provides additional terms related to the use of iBooks Store Products, clarifying the licensing agreement between users and publishers rather than with the store itself.",
+                    "start_id": "285",
+                    "end_id": "285",
+                    "doc_id": "1"
+                }
+            ],
+            "standardised_title": "Additional App Store Terms"
+        },
+        {
+            "doc_a_section": {
+                "title": "TERMINATION AND SUSPENSION OF SERVICES",
+                "description": "Defines the conditions under which Apple can terminate or suspend user access to services, detailing liabilities and processes Apple may undertake if terms are violated.",
+                "start_id": "165",
+                "end_id": "167",
+                "doc_id": "2"
+            },
+            "reasoning": "Termination sections explain how and why access can be removed, detailing liabilities and processes when terms are broken.",
+            "doc_b_sections": [
                 {
                     "title": "TERMINATION",
-                    "line_id": "133",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "TERMINATION AND SUSPENSION OF SERVICES",
-                    "line_id": "165",
-                    "doc_id": "2"
-                },
-                {
-                    "title": "TERMINATION",
-                    "line_id": "205",
+                    "description": "Describes the conditions under which iTunes can terminate the agreement or user accounts, including events of breach.",
+                    "start_id": "133",
+                    "end_id": "135",
                     "doc_id": "1"
                 }
-            ]
+            ],
+            "standardised_title": "Termination and Suspension"
         },
         {
-            "standardized_title": "Liability Limitations",
-            "mappings": [
-                {
-                    "title": "DISCLAIMER OF WARRANTIES; LIABILITY LIMITATIONS",
-                    "line_id": "136",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "DISCLAIMER OF WARRANTIES; LIABILITY LIMITATIONS",
-                    "line_id": "168",
-                    "doc_id": "2"
-                },
-                {
-                    "title": "DISCLAIMER OF WARRANTIES; LIABILITY LIMITATIONS",
-                    "line_id": "208",
-                    "doc_id": "1"
-                }
-            ]
-        },
-        {
-            "standardized_title": "Intellectual Property",
-            "mappings": [
-                {
-                    "title": "INTELLECTUAL PROPERTY",
-                    "line_id": "200",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "INTELLECTUAL PROPERTY",
-                    "line_id": "144",
-                    "doc_id": "2"
-                }
-            ]
-        },
-        {
-            "standardized_title": "Additional Terms",
-            "mappings": [
-                {
-                    "title": "MISCELLANEOUS",
-                    "line_id": "151",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "OTHER PROVISIONS",
-                    "line_id": "189",
-                    "doc_id": "2"
-                }
-            ]
-        },
-        {
-            "standardized_title": "Unmapped",
-            "mappings": [
-                {
-                    "title": "GIFTS",
-                    "line_id": "32",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "IMPORTANT SAFETY INFORMATION",
-                    "line_id": "34",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "CONTENT SECURITY",
-                    "line_id": "112",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "SERVICE SECURITY",
-                    "line_id": "114",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "CHANGES",
-                    "line_id": "221",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "FURTHER MAC APP STORE AND APP STORE TERMS AND CONDITIONS",
-                    "line_id": "229",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "LICENSE OF MAC APP STORE AND APP STORE PRODUCTS",
-                    "line_id": "230",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "IN-APP PURCHASES",
-                    "line_id": "235",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "IN-APP SUBSCRIPTIONS",
-                    "line_id": "238",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "MAC APP STORE AND APP STORE PRODUCT MAINTENANCE AND SUPPORT",
-                    "line_id": "257",
-                    "doc_id": "1"
-                },
+            "doc_a_section": {
+                "title": "DISCLAIMER OF WARRANTIES; LIABILITY LIMITATIONS",
+                "description": "This section outlines the limitations and disclaimers of Apple's warranties related to the services, specifying conditions under which Apple is not liable for damages and the risks assumed by the user during service loss or errors.",
+                "start_id": "168",
+                "end_id": "182",
+                "doc_id": "2"
+            },
+            "reasoning": "Both sections discuss limitations on liability and warranties, clarifying Apple's stance on being accountable for damages.",
+            "doc_b_sections": [
                 {
                     "title": "Limitation of Liability",
-                    "line_id": "274",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "LICENSE OF IBOOKS STORE PRODUCTS",
-                    "line_id": "286",
-                    "doc_id": "1"
-                },
-                {
-                    "title": "IBOOKS STORE PRODUCT USAGE RULES",
-                    "line_id": "289",
+                    "description": "Discusses the limitations placed on the liability of the Licensor, detailing conditions where the Licensor and its affiliates are not liable for damages, including specific breaches that may occur.",
+                    "start_id": "274",
+                    "end_id": "281",
                     "doc_id": "1"
                 }
-            ]
+            ],
+            "standardised_title": "Disclaimer of Warranties and Liability Limitations"
+        },
+        {
+            "doc_a_section": {
+                "title": "STATUTORY EXCEPTIONS FOR PUBLIC INSTITUTIONS",
+                "description": "Addresses institutions like public educational or government bodies, defining how certain contract terms may be invalid or unenforceable against them due to applicable laws, and how these terms should be construed.",
+                "start_id": "183",
+                "end_id": "183",
+                "doc_id": "2"
+            },
+            "reasoning": "Both sections fulfill the role of explaining statutory exceptions specific to public institutions, considering legal obligations.",
+            "doc_b_sections": [
+                {
+                    "title": "The Licensed Application and related documentation",
+                    "description": "Defines the Licensed Application as a Commercial Item under U.S. regulatory codes, specifying the rights granted to U.S. Government end-users and emphasizing the reservation of all unpublished rights under United States copyright laws.",
+                    "start_id": "283",
+                    "end_id": "283",
+                    "doc_id": "1"
+                }
+            ],
+            "standardised_title": "Statutory Exceptions for Public Institutions"
+        },
+        {
+            "doc_a_section": {
+                "title": "GOVERNING LAW",
+                "description": "Specifies the legal framework that governs the agreement, outlining the applicable laws, jurisdictions, and legal locations for resolving disputes depending on the user's geographical location.",
+                "start_id": "185",
+                "end_id": "188",
+                "doc_id": "2"
+            },
+            "reasoning": "Specifies the laws governing the terms, domains, and conditions when jurisdiction becomes relevant for dispute resolutions.",
+            "doc_b_sections": [],
+            "standardised_title": "Governing Law"
+        },
+        {
+            "doc_a_section": {
+                "title": "OTHER PROVISIONS",
+                "description": "Covers additional aspects of the agreement, including the comprehensiveness of the agreement, conditions for enforcement and amendment, and compliance with applicable laws and regulations.",
+                "start_id": "189",
+                "end_id": "194",
+                "doc_id": "2"
+            },
+            "reasoning": "Sections encompass final clauses providing comprehensiveness, amendment stipulations, and overall compliance with laws.",
+            "doc_b_sections": [
+                {
+                    "title": "MISCELLANEOUS",
+                    "description": "Outlines the general provisions and stipulations not covered in other sections, and notes how the agreement supersedes prior ones.",
+                    "start_id": "151",
+                    "end_id": "155",
+                    "doc_id": "1"
+                }
+            ],
+            "standardised_title": "Miscellaneous Provisions"
         }
     ]
 }

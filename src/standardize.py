@@ -16,29 +16,47 @@ logging.info("Starting the standardization of sections.")
 # Log the rendering of the template
 logging.info("Rendering the standardize_sections template.")
 
+
 def standardize_sections_llm(v1_sections, v2_sections) -> List[StandardizedSections]:
-    
+
+    doc_a_sections = v1_sections if len(v1_sections) < len(v2_sections) else v2_sections
+    doc_b_sections = (
+        v1_sections if len(v1_sections) >= len(v2_sections) else v2_sections
+    )
+
+    pre_filled_template = {
+        "sections": [
+            {
+                "doc_a_section": doc_a_section.model_dump(),
+                "doc_b_section": [],
+                "standardised_title": "",
+            }
+            for doc_a_section in doc_a_sections
+        ]
+    }
+
     env = Environment(loader=FileSystemLoader("./templates"))
     standardize_sections_template = env.get_template("standardize_sections.j2")
     standardize_sections_prompt = standardize_sections_template.render(
-        v1_sections=v1_sections, v2_sections=v2_sections
+        pre_filled_template=pre_filled_template, document_b=doc_b_sections
     )
 
     response = completion(
-        model="gpt-4o-mini",
-        temperature=1, # Adjust the temperature to control the randomness of the output
+        model="gpt-4o",
+        temperature=1,  # Adjust the temperature to control the randomness of the output
         messages=[{"role": "user", "content": standardize_sections_prompt}],
         response_format=StandardizedSections,
     )
 
     response = json.loads(response.choices[0].message.content)
 
-    print('standard sections:', len(response['sections']))
-    print('total mappings:', sum(len(section['mappings']) for section in response['sections']))
+    print("standardised sections:", len(response["sections"]))
+
     # Log the response from the completion function
     logging.info("Received response from completion function.")
 
     return response
+
 
 # Log the end of the function
 logging.info("Finished the standardization of sections.")

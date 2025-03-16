@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, format="%(message)s")
 def wrap_lines_with_tags(text):
     # Split the text into lines and wrap each line with a custom tag
     lines = text.splitlines()
-    wrapped_lines = [f'<line id="{i}">{line}</line_id>' for i, line in enumerate(lines)]
+    wrapped_lines = [f'<line id="{i}">{line}</line>' for i, line in enumerate(lines)]
     return "\n".join(wrapped_lines)
 
 
