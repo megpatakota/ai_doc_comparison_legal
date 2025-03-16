@@ -24,9 +24,9 @@ def extract_text_from_docx(file_path):
         logging.info(f"Successfully extracted {len(text)} characters from document")
         
         # Wrap each line with custom tags
-        wrapped_text = wrap_lines_with_tags(text)
+        text = wrap_lines_with_tags(text)
         
-        return wrapped_text
+        return text
     except Exception as e:
         logging.error(f"Error extracting text from {file_path}: {str(e)}")
         raise

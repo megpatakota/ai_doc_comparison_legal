@@ -46,30 +46,51 @@ def extract_titles(batch_text: str) -> List[Section]:
         response = completion(
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
-            response_format=Sections,
         )
         
-        sections = json.loads(response.choices[0].message.content)["sections"]
-        logger.info(f"Successfully extracted {len(sections)} sections")
+        # Parse the JSON response
+        content = response.choices[0].message.content
+        logger.debug(f"Raw LLM response: {content}")
         
-        # Add detailed logging for each section
-        section_objects = []
-        for i, section_data in enumerate(sections, 1):
-            section = Section(**section_data)
-            # Log the entire section data for debugging
-            logger.info(f"Section {i}: {section.model_dump()}")
-            section_objects.append(section)
-        
-        return section_objects
-
-    except (json.JSONDecodeError, ValidationError) as e:
-        logger.error(f"Error processing batch: {str(e)}")
-        logger.debug(f"Response content was: {response.choices[0].message.content}")
-        return []
+        try:
+            sections_data = json.loads(content)
+            # Handle both array format and {sections: [...]} format
+            if isinstance(sections_data, list):
+                sections = sections_data
+            elif isinstance(sections_data, dict) and "sections" in sections_data:
+                sections = sections_data["sections"]
+            else:
+                logger.warning(f"Unexpected response format: {sections_data}")
+                sections = []
+                
+            logger.info(f"Successfully extracted {len(sections)} sections")
+            
+            # Add detailed logging for each section
+            section_objects = []
+            for i, section_data in enumerate(sections, 1):
+                # Ensure line_id is present
+                if "line_id" not in section_data:
+                    logger.warning(f"Section {i} missing line_id: {section_data}")
+                    section_data["line_id"] = "unknown"
+                
+                # Create Section object
+                try:
+                    section = Section(**section_data)
+                    print(f"Section {i}: {section_data}")
+                    section_objects.append(section)
+                except ValidationError as e:
+                    logger.error(f"Validation error for section {i}: {e}")
+                    logger.debug(f"Section data was: {section_data}")
+            
+            return section_objects
+            
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse JSON response: {e}")
+            logger.debug(f"Response content was: {content}")
+            return []
 
     except Exception as e:
-        logger.error(f"Unexpected error processing batch: {str(e)}")
-        logger.debug(f"Response content was: {response.choices[0].message.content}")
+        logger.error(f"Unexpected error in extract_titles: {str(e)}")
         return []
 
 def process_batches(batches: List[str]) -> List[Section]:
@@ -82,21 +103,18 @@ def process_batches(batches: List[str]) -> List[Section]:
     Returns:
         List[Section]: A combined list of Section objects extracted from all batches.
     """
-    all_titles = []
+    all_sections = []
     total_batches = len(batches)
     
     logger.info(f"Starting to process {total_batches} batches")
     
     for i, batch in enumerate(batches):
         logger.info(f"Processing batch {i+1} of {total_batches}")
-        titles = extract_titles(batch)
+        # Get the sections for this batch - already as Section objects
+        batch_sections = extract_titles(batch)
         
-        if not titles:
-            logger.error(f"Failed to process batch {i+1}. Stopping processing.")
-            break
-            
-        logger.debug(f"Extracted titles for batch {i+1}: {titles}")
-        all_titles.extend(titles)
-        
-    logger.info(f"Completed processing with {len(all_titles)} total sections extracted")
-    return all_titles
+        # Add these sections to our combined list
+        all_sections.extend(batch_sections)
+    
+    logger.info(f"Completed processing with {len(all_sections)} total sections extracted")
+    return all_sections

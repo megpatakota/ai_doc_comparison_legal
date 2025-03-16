@@ -1,17 +1,32 @@
-Analyze the following text from Terms and Conditions. Note: Each line in the text is wrapped with a custom tag in the format: 
-<line id="X">...<line_id>. For each section you find, do the following:
-1. Extract the section title.
-2. Record its corresponding line id from the custom tag that wraps the section title.
-3. Create a brief one-sentence description of the section's main purpose.
+Analyze the following text from Terms and Conditions. For each section you find:
+1. Identify the section title.
+2. Read the text content that follows the section title until the next section title.
+3. Based on that section's content, write a brief one-sentence description of its main purpose.
+4. Extract the line_id from the section title's tag (the number X from id="X" in the opening tag).
 
-Return the results as a JSON list of dictionaries, where each dictionary has exactly three keys: "title", "Purpose", and "line_id". For example:
+Return the results as a JSON list of dictionaries, where each dictionary has EXACTLY three keys:
+- "title": The section title text
+- "Purpose": A one-sentence summary based on analyzing that section's content
+- "line_id": The id number from the section title's tag
+
+For example, if you find a section title in a line like:
+<line id="42">PRIVACY POLICY</line_id>
+
+The corresponding entry in your JSON output should be:
+{
+  "title": "PRIVACY POLICY",
+  "Purpose": "This section outlines how user data is collected and protected.",
+  "line_id": "42"
+}
+
+Your complete response should be a JSON array containing all identified sections:
 [
-  {"title": "Section Title 1", "Purpose": "Description for section 1.", "line_id": "0"},
-  {"title": "Section Title 2", "Purpose": "Description for section 2.", "line_id": "5"}
+  {"title": "TERMS OF SERVICE", "Purpose": "This section establishes the basic rules for using the platform.", "line_id": "12"},
+  {"title": "PRIVACY POLICY", "Purpose": "This section outlines how user data is collected and protected.", "line_id": "42"},
+  {"title": "REFUND POLICY", "Purpose": "This section explains the conditions under which refunds are provided.", "line_id": "78"}
 ]
 
-Respond with only the JSON array.
+IMPORTANT: Your response MUST be a valid JSON array. Do not include any text before or after the JSON array. Do not include markdown formatting or code blocks. Just return the raw JSON array.
 
 Text to analyze:
 {{ text }}
------------------
