@@ -1,14 +1,17 @@
-Analyze the following text from Terms and Conditions. For each section you find:
+Analyze the following text from Terms and Conditions. Note: Each line in the text is wrapped with a custom tag in the format: 
+<line id="X">...<line_id>. For each section you find, do the following:
 1. Extract the section title.
-2. Create a brief 1 sentence description of the section's main purpose.
+2. Record its corresponding line id from the custom tag that wraps the section title.
+3. Create a brief one-sentence description of the section's main purpose.
 
-Return the results as a JSON list of dictionaries, where each dictionary has exactly two keys: "title" and "Purpose". For example:
+Return the results as a JSON list of dictionaries, where each dictionary has exactly three keys: "title", "Purpose", and "line_id". For example:
 [
-  {"title": "Section Title 1", "Purpose": "Description for section 1."},
-  {"title": "Section Title 2", "Purpose": "Description for section 2."}
+  {"title": "Section Title 1", "Purpose": "Description for section 1.", "line_id": "0"},
+  {"title": "Section Title 2", "Purpose": "Description for section 2.", "line_id": "5"}
 ]
 
 Respond with only the JSON array.
 
 Text to analyze:
-{{ text }} 
+{{ text }}
+-----------------
