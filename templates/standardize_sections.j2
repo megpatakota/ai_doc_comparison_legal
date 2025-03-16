@@ -1,38 +1,97 @@
-Compare the sections from the two JSON files and create standardized titles for similar sections.
+You are given two JSON arrays. Each array represents the sections from one Terms & Conditions document:
 
-For each group of similar sections across documents, create a standardized entry with:
-1. A "standardized_title" that best represents all similar sections
-2. A "mappings" array containing all the original sections that map to this standardized title
+- Document 1 sections: {{ v1_sections }}
+- Document 2 sections: {{ v2_sections }}
 
-Follow this format:
+Each element in these arrays has at least the following keys:
+{
+  "title": "ORIGINAL SECTION TITLE",
+  "Purpose": "Single-sentence description (not relevant to final output)",
+  "line_id": "LINE ID FROM DOC",
+  "doc_id": "DOC IDENTIFIER"
+}
+
+---
+
+YOUR TASK:
+
+1. **Compare & Group Similar Sections**  
+   - Identify which sections from both documents share similar meaning or purpose (even if their original titles differ).
+   - You decide what “similar” means by comparing the **titles** (or relevant synonyms / context).
+   - Each section from **both** documents must be mapped once and only once to a standardized group.
+
+2. **Handling Repeated Sections**  
+   - If a section title appears multiple times **within the same document** (i.e., same `title` but different `line_id`s), treat them as **separate** sections.
+   - Each of these repeated sections must still appear in your final output, under a standardized group.
+
+3. **Create Standardized Titles**  
+   - For each group of similar sections, pick a concise, **clear** standardized title (e.g., "Introduction", "Payments and Refunds", "Limitation of Liability", etc.).
+   - If there is only one section in a group (no similar match), give that section an appropriate standardized title anyway.
+
+4. **Build the Final JSON Array**  
+   - Return an array of objects, where each object has the form:
+     ```json
+     {
+       "standardized_title": "A single unified title for the group",
+       "mappings": [
+         {
+           "title": "ORIGINAL SECTION TITLE FROM DOC",
+           "line_id": "LINE ID",
+           "doc_id": "DOC IDENTIFIER"
+         },
+         ...
+       ]
+     }
+     ```
+   - **No extraneous keys** (such as `"Purpose"`) should appear in `"mappings"`.
+   - **No extra text** outside the JSON array — only return the JSON.
+
+5. **Include All Sections**  
+   - Every section from both documents must appear exactly once under one of the standardized titles.
+   - If a given section does not match any other section (i.e., it is “unmapped” to a similar group), place it in a group whose `"standardized_title"` is `"unmapped"`.
+
+6. **Output Requirements**  
+   - Only return the final JSON array (no additional text).
+
+---
+
+### **EXAMPLE OUTPUT** (structure only):
+
+```json
 [
   {
     "standardized_title": "Introduction",
     "mappings": [
-      {"title": "TERMS AND CONDITIONS", "line_id": "0", "doc_id": "1"},
-      {"title": "INTRODUCTION TO OUR SERVICES", "line_id": "2", "doc_id": "2"}
+      {
+        "title": "TERMS AND CONDITIONS",
+        "line_id": "0",
+        "doc_id": "1"
+      },
+      {
+        "title": "TERMS AND CONDITIONS",
+        "line_id": "20",
+        "doc_id": "1"
+      },
+      {
+        "title": "INTRODUCTION TO OUR SERVICES",
+        "line_id": "2",
+        "doc_id": "2"
+      }
     ]
   },
   {
     "standardized_title": "Payment and Refunds",
     "mappings": [
-      {"title": "PAYMENTS, TAXES, AND REFUND POLICY", "line_id": "8", "doc_id": "1"},
-      {"title": "PAYMENTS, TAXES AND REFUNDS", "line_id": "5", "doc_id": "2"}
+      {
+        "title": "PAYMENTS, TAXES, AND REFUND POLICY",
+        "line_id": "8",
+        "doc_id": "1"
+      },
+      {
+        "title": "PAYMENTS, TAXES AND REFUNDS",
+        "line_id": "5",
+        "doc_id": "2"
+      }
     ]
   }
 ]
-
-Guidelines for standardization:
-- Group sections with similar content/purpose even if titles differ
-- Choose clear, concise standardized titles
-- Include ALL sections from both documents
-- If a section appears in only one document, it still gets a standardized title with just one mapping
-- Preserve the exact original title, line_id, and doc_id in the mappings
-
-Return only a valid JSON array with the standardized sections.
-
-Document 1 sections:
-{{ doc1_sections }}
-
-Document 2 sections:
-{{ doc2_sections }}

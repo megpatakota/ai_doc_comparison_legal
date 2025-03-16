@@ -2,7 +2,7 @@ Analyze the following text from Terms and Conditions. For each section you find:
 1. Identify the section title, these should be obvious titles and not appear as possible sub-sections. ONLY use titles that explicitly appear in the text - do not create, infer, or generate titles based on external knowledge.
 2. Read the text content that follows the section title until the next section title.
 3. Based on that section's content, write a brief one-sentence description of its main purpose.
-4. Extract the line_id from the section title's tag (the number X from id="X" in the opening tag).
+4. Extract the line_id from the {{text}} based of the extracted section title (the number X from id="X" in the opening tag).
 
 Return the results as a JSON list of dictionaries, where each dictionary has EXACTLY three keys:
 - "title": The exact section title text as it appears in the document
@@ -21,18 +21,17 @@ The corresponding entry in your JSON output should be:
 
 Your complete response should be a JSON array containing all identified sections:
 [
-  {"title": "TERMS OF SERVICE", "Purpose": "This section establishes the basic rules for using the platform.", "line_id": "12"},
+  {"title": "Terms of Use", "Purpose": "This section establishes the basic rules for using the platform.", "line_id": "12"},
   {"title": "PRIVACY POLICY", "Purpose": "This section outlines how user data is collected and protected.", "line_id": "42"},
   {"title": "REFUND POLICY", "Purpose": "This section explains the conditions under which refunds are provided.", "line_id": "78"}
 ]
 
 IMPORTANT: 
-- Your response MUST be a valid JSON array.
-- Do not include any text before or after the JSON array.
-- Do not include markdown formatting or code blocks.
-- Just return the raw JSON array.
+- Do not include any text before or after the JSON array, even the line_id or doc_id should not be part of the title extracted from the document.
 - ONLY include sections with titles that explicitly appear in the text.
 - DO NOT create or infer section titles that don't exist in the original text.
+- Your response MUST be a valid JSON array. Just return the raw JSON array.
+
 
 Text to analyze:
 {{ text }}

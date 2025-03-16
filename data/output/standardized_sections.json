@@ -16,12 +16,17 @@
             ]
         },
         {
-            "standardized_title": "Payment and Refunds",
+            "standardized_title": "Payment and Refund Policies",
             "mappings": [
                 {
-                    "title": "PAYMENTS, TAXES, AND REFUND POLICY",
-                    "line_id": "8",
+                    "title": "ITUNES STORE, MAC APP STORE, APP STORE AND IBOOKS STORE TERMS OF SALE",
+                    "line_id": "1",
                     "doc_id": "1"
+                },
+                {
+                    "title": "USING OUR SERVICES",
+                    "line_id": "4",
+                    "doc_id": "2"
                 },
                 {
                     "title": "PAYMENTS, TAXES AND REFUNDS",
@@ -31,47 +36,252 @@
             ]
         },
         {
-            "standardized_title": "Privacy Policy",
+            "standardized_title": "Payments, Taxes, and Refund Policy",
             "mappings": [
                 {
-                    "title": "PRIVACY AND DATA USAGE",
-                    "line_id": "12",
+                    "title": "PAYMENTS, TAXES, AND REFUND POLICY",
+                    "line_id": "8",
+                    "doc_id": "1"
+                }
+            ]
+        },
+        {
+            "standardized_title": "Account Management",
+            "mappings": [
+                {
+                    "title": "YOUR ACCOUNT",
+                    "line_id": "165",
                     "doc_id": "1"
                 },
                 {
-                    "title": "YOUR PRIVACY AND DATA PROTECTION",
-                    "line_id": "7",
+                    "title": "ACCOUNT",
+                    "line_id": "23",
                     "doc_id": "2"
                 }
             ]
         },
         {
-            "standardized_title": "User Responsibilities",
+            "standardized_title": "Privacy",
             "mappings": [
                 {
-                    "title": "USER OBLIGATIONS",
-                    "line_id": "10",
+                    "title": "PRIVACY",
+                    "line_id": "77",
                     "doc_id": "1"
                 },
                 {
-                    "title": "USER RESPONSIBILITIES",
-                    "line_id": "6",
+                    "title": "PRIVACY",
+                    "line_id": "183",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "PRIVACY",
+                    "line_id": "27",
                     "doc_id": "2"
                 }
             ]
         },
         {
-            "standardized_title": "Contact Information",
+            "standardized_title": "Content Availability and Usage",
             "mappings": [
                 {
-                    "title": "CONTACT US",
-                    "line_id": "14",
+                    "title": "CONTENT AVAILABILITY",
+                    "line_id": "88",
                     "doc_id": "1"
                 },
                 {
-                    "title": "GET IN TOUCH",
-                    "line_id": "9",
+                    "title": "CONTENT AND SERVICE AVAILABILITY",
+                    "line_id": "66",
                     "doc_id": "2"
+                }
+            ]
+        },
+        {
+            "standardized_title": "Usage Rules",
+            "mappings": [
+                {
+                    "title": "USE OF CONTENT",
+                    "line_id": "90",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "SERVICES AND CONTENT USAGE RULES",
+                    "line_id": "29",
+                    "doc_id": "2"
+                },
+                {
+                    "title": "MAC APP STORE PRODUCT USAGE RULES",
+                    "line_id": "247",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "APP STORE PRODUCT USAGE RULES",
+                    "line_id": "252",
+                    "doc_id": "1"
+                }
+            ]
+        },
+        {
+            "standardized_title": "Submission Responsibility",
+            "mappings": [
+                {
+                    "title": "SUBMISSIONS TO THE STORES",
+                    "line_id": "193",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "YOUR SUBMISSIONS TO OUR SERVICES",
+                    "line_id": "70",
+                    "doc_id": "2"
+                }
+            ]
+        },
+        {
+            "standardized_title": "Family Sharing",
+            "mappings": [
+                {
+                    "title": "FAMILY SHARING",
+                    "line_id": "82",
+                    "doc_id": "2"
+                }
+            ]
+        },
+        {
+            "standardized_title": "Termination of Services",
+            "mappings": [
+                {
+                    "title": "TERMINATION",
+                    "line_id": "133",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "TERMINATION AND SUSPENSION OF SERVICES",
+                    "line_id": "165",
+                    "doc_id": "2"
+                },
+                {
+                    "title": "TERMINATION",
+                    "line_id": "205",
+                    "doc_id": "1"
+                }
+            ]
+        },
+        {
+            "standardized_title": "Liability Limitations",
+            "mappings": [
+                {
+                    "title": "DISCLAIMER OF WARRANTIES; LIABILITY LIMITATIONS",
+                    "line_id": "136",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "DISCLAIMER OF WARRANTIES; LIABILITY LIMITATIONS",
+                    "line_id": "168",
+                    "doc_id": "2"
+                },
+                {
+                    "title": "DISCLAIMER OF WARRANTIES; LIABILITY LIMITATIONS",
+                    "line_id": "208",
+                    "doc_id": "1"
+                }
+            ]
+        },
+        {
+            "standardized_title": "Intellectual Property",
+            "mappings": [
+                {
+                    "title": "INTELLECTUAL PROPERTY",
+                    "line_id": "200",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "INTELLECTUAL PROPERTY",
+                    "line_id": "144",
+                    "doc_id": "2"
+                }
+            ]
+        },
+        {
+            "standardized_title": "Additional Terms",
+            "mappings": [
+                {
+                    "title": "MISCELLANEOUS",
+                    "line_id": "151",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "OTHER PROVISIONS",
+                    "line_id": "189",
+                    "doc_id": "2"
+                }
+            ]
+        },
+        {
+            "standardized_title": "Unmapped",
+            "mappings": [
+                {
+                    "title": "GIFTS",
+                    "line_id": "32",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "IMPORTANT SAFETY INFORMATION",
+                    "line_id": "34",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "CONTENT SECURITY",
+                    "line_id": "112",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "SERVICE SECURITY",
+                    "line_id": "114",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "CHANGES",
+                    "line_id": "221",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "FURTHER MAC APP STORE AND APP STORE TERMS AND CONDITIONS",
+                    "line_id": "229",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "LICENSE OF MAC APP STORE AND APP STORE PRODUCTS",
+                    "line_id": "230",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "IN-APP PURCHASES",
+                    "line_id": "235",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "IN-APP SUBSCRIPTIONS",
+                    "line_id": "238",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "MAC APP STORE AND APP STORE PRODUCT MAINTENANCE AND SUPPORT",
+                    "line_id": "257",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "Limitation of Liability",
+                    "line_id": "274",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "LICENSE OF IBOOKS STORE PRODUCTS",
+                    "line_id": "286",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "IBOOKS STORE PRODUCT USAGE RULES",
+                    "line_id": "289",
+                    "doc_id": "1"
                 }
             ]
         }

@@ -26,11 +26,15 @@ def standardize_sections_llm(v1_sections, v2_sections) -> List[StandardizedSecti
 
     response = completion(
         model="gpt-4o-mini",
+        temperature=1, # Adjust the temperature to control the randomness of the output
         messages=[{"role": "user", "content": standardize_sections_prompt}],
         response_format=StandardizedSections,
     )
 
     response = json.loads(response.choices[0].message.content)
+
+    print('standard sections:', len(response['sections']))
+    print('total mappings:', sum(len(section['mappings']) for section in response['sections']))
     # Log the response from the completion function
     logging.info("Received response from completion function.")
 

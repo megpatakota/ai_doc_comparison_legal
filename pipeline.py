@@ -70,6 +70,8 @@ def process_docx_files(input_folder, output_folder, input_temp_folder):
             
             # Save the sections to a JSON file
             save_sections(updated_sections, output_file)
+
+            logger.info(f"Sections generated from {file} saved to {output_file}, Number of sections: {len(updated_sections)}")
             
             # Increment document counter for next file
             doc_counter += 1
@@ -85,6 +87,7 @@ def standardize_sections(output_folder):
 
     # Standardize the sections
     standardized_sections = standardize_sections_llm(v1_sections, v2_sections)
+
     save_to_json(standardized_sections, os.path.join(output_folder, "standardized_sections.json"))
 
 

@@ -37,7 +37,7 @@ def save_to_json(data, filename):
 
 def load_from_json(filename):
     with open(filename, "r") as f:
-        data = f.read()
+        data = json.loads(f.read())
     print(f"✅ Loaded text from {filename}")
     return data
 
