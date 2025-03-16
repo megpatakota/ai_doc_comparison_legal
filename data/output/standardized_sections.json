@@ -1,0 +1,79 @@
+{
+    "sections": [
+        {
+            "standardized_title": "Introduction",
+            "mappings": [
+                {
+                    "title": "TERMS AND CONDITIONS",
+                    "line_id": "0",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "INTRODUCTION TO OUR SERVICES",
+                    "line_id": "2",
+                    "doc_id": "2"
+                }
+            ]
+        },
+        {
+            "standardized_title": "Payment and Refunds",
+            "mappings": [
+                {
+                    "title": "PAYMENTS, TAXES, AND REFUND POLICY",
+                    "line_id": "8",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "PAYMENTS, TAXES AND REFUNDS",
+                    "line_id": "5",
+                    "doc_id": "2"
+                }
+            ]
+        },
+        {
+            "standardized_title": "Privacy Policy",
+            "mappings": [
+                {
+                    "title": "PRIVACY AND DATA USAGE",
+                    "line_id": "12",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "YOUR PRIVACY AND DATA PROTECTION",
+                    "line_id": "7",
+                    "doc_id": "2"
+                }
+            ]
+        },
+        {
+            "standardized_title": "User Responsibilities",
+            "mappings": [
+                {
+                    "title": "USER OBLIGATIONS",
+                    "line_id": "10",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "USER RESPONSIBILITIES",
+                    "line_id": "6",
+                    "doc_id": "2"
+                }
+            ]
+        },
+        {
+            "standardized_title": "Contact Information",
+            "mappings": [
+                {
+                    "title": "CONTACT US",
+                    "line_id": "14",
+                    "doc_id": "1"
+                },
+                {
+                    "title": "GET IN TOUCH",
+                    "line_id": "9",
+                    "doc_id": "2"
+                }
+            ]
+        }
+    ]
+}

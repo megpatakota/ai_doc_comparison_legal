@@ -30,7 +30,8 @@ def save_sections(sections, filename):
 
 def save_to_json(data, filename):
     with open (filename, "w") as f:
-        data = f.write(data)
+        json_data = json.dumps(data, indent=4) # indent for pretty printing
+        f.write(json_data)
     print(f"✅ Saved text to {filename}")
     return data
 
