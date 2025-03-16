@@ -32,7 +32,6 @@ def extract_titles(batch_text: str) -> List[Section]:
         json.JSONDecodeError: If the LLM response cannot be parsed as JSON.
         ValidationError: If any section fails pydantic validation.
     """
-    # Render the prompt (assumes the template exists and is valid)
     template = env.get_template("extract_sections.j2")
     prompt = template.render(text=batch_text)
     logger.info("Sending request to LLM for section extraction")

@@ -3,10 +3,8 @@ import logging
 
 
 # Set up logging configuration
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(message)s'
-)
+logging.basicConfig(level=logging.INFO, format="%(message)s")
+
 
 def wrap_lines_with_tags(text):
     # Split the text into lines and wrap each line with a custom tag
@@ -21,18 +19,19 @@ def extract_text_from_docx(file_path):
         doc = docx.Document(file_path)
         # Extract text from each paragraph (ignoring empty ones)
         text = "\n".join([para.text for para in doc.paragraphs if para.text.strip()])
-        
+
         logging.info(f"Successfully extracted {len(text)} characters from document")
-        
+
         # Wrap each line with custom tags
         text = wrap_lines_with_tags(text)
-        
+
         return text
     except Exception as e:
         logging.error(f"Error extracting text from {file_path}: {str(e)}")
         raise
 
-def batch_text(text, max_tokens=1000):
+
+def batch_text(text, max_tokens=10000):
     """
     Splits the text into batches based on sentences.
     Note: The wrapped tags will be included, but the LLM output may return a placeholder for line_id.

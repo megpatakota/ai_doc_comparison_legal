@@ -1,11 +1,11 @@
 Analyze the following text from Terms and Conditions. For each section you find:
-1. Identify the section title, these should be obvious titles and not appear as possible sub-sections.
+1. Identify the section title, these should be obvious titles and not appear as possible sub-sections. ONLY use titles that explicitly appear in the text - do not create, infer, or generate titles based on external knowledge.
 2. Read the text content that follows the section title until the next section title.
 3. Based on that section's content, write a brief one-sentence description of its main purpose.
 4. Extract the line_id from the section title's tag (the number X from id="X" in the opening tag).
 
 Return the results as a JSON list of dictionaries, where each dictionary has EXACTLY three keys:
-- "title": The section title text
+- "title": The exact section title text as it appears in the document
 - "Purpose": A one-sentence summary based on analyzing that section's content
 - "line_id": The id number from the section title's tag
 
@@ -26,7 +26,13 @@ Your complete response should be a JSON array containing all identified sections
   {"title": "REFUND POLICY", "Purpose": "This section explains the conditions under which refunds are provided.", "line_id": "78"}
 ]
 
-IMPORTANT: Your response MUST be a valid JSON array. Do not include any text before or after the JSON array. Do not include markdown formatting or code blocks. Just return the raw JSON array.
+IMPORTANT: 
+- Your response MUST be a valid JSON array.
+- Do not include any text before or after the JSON array.
+- Do not include markdown formatting or code blocks.
+- Just return the raw JSON array.
+- ONLY include sections with titles that explicitly appear in the text.
+- DO NOT create or infer section titles that don't exist in the original text.
 
 Text to analyze:
 {{ text }}

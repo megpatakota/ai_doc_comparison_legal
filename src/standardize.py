@@ -4,19 +4,21 @@ from typing import List
 from litellm import completion
 from jinja2 import Environment, FileSystemLoader
 from src.base import StandardizedSections
-from src.file_io import load_sections
+from src.file_io import load_sections, save_to_json
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 
-v1_sections = load_sections("../data/output/v1_sections.json")
-v2_sections = load_sections("../data/output/v2_sections.json")
 
+# Log the start of the function
+logging.info("Starting the standardization of sections.")
 
+# Log the rendering of the template
+logging.info("Rendering the standardize_sections template.")
 
-def standardize_sections() -> List[StandardizedSections]:
+def standardize_sections_llm(v1_sections, v2_sections) -> List[StandardizedSections]:
     
-    env = Environment(loader=FileSystemLoader("../templates"))
+    env = Environment(loader=FileSystemLoader("./templates"))
     standardize_sections_template = env.get_template("standardize_sections.j2")
     standardize_sections_prompt = standardize_sections_template.render(
         v1_sections=v1_sections, v2_sections=v2_sections
@@ -27,4 +29,12 @@ def standardize_sections() -> List[StandardizedSections]:
         messages=[{"role": "user", "content": standardize_sections_prompt}],
         response_format=StandardizedSections,
     )
-    return response.choices[0].message.content
+
+    response = json.loads(response.choices[0].message.content)
+    # Log the response from the completion function
+    logging.info("Received response from completion function.")
+
+    return response
+
+# Log the end of the function
+logging.info("Finished the standardization of sections.")

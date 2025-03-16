@@ -40,6 +40,12 @@ def load_from_json(filename):
     print(f"✅ Loaded text from {filename}")
     return data
 
+# save the text from extract_text_from_docx to a text file
+def save_extract_text_from_docx(text, filename):
+    with open(filename, "w") as f:
+        f.write(text)
+    print(f"✅ Saved text to {filename}")
+    return filename
 
 # load the extracted sections from the JSON file
 def load_sections(filename):
