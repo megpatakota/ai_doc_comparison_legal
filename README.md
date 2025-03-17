@@ -1,7 +1,3 @@
-Here’s your updated `README.md`, incorporating the OpenAI API key requirement and refining the structure for clarity and professionalism.
-
----
-
 # AI Document Comparison on Legal Documents
 
 [![Project Status](https://img.shields.io/badge/Status-In%20Development-orange)]()
