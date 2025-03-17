@@ -53,6 +53,18 @@ Using Poetry:
 poetry install
 ```
 
+### Run process
+Pipeline1:
+```bash
+poetry run python pipeline1.py
+```
+
+Pipeline2 - simplellm:
+```bash
+poetry run python simple_llm.py
+```
+
+
 ---
 # Output
 
