@@ -2,6 +2,7 @@ from src.text_process import extract_text_from_docx, batch_text
 from src.llm_section_extract import process_batches
 from src.file_io import save_sections, save_extract_text_from_docx, load_sections, save_to_json
 from src.standardize import standardize_sections_llm
+from src.compare import compare_sections
 import os
 import logging
 
@@ -93,5 +94,5 @@ def standardize_sections(output_folder):
 
 # Call the functions as needed
 # process_docx_files(input_folder, output_folder, input_temp_folder)
-standardize_sections(output_folder)
-
+# standardize_sections(output_folder)
+compare_sections()

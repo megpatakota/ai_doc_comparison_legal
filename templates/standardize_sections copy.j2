@@ -1,15 +1,14 @@
-You are given two JSON arrays. Each array represents the sections from one Terms & Conditions document:
+You are an expert in standardising section titles in legal documents.
+I will show you a list of sections extracted from two documents.
+Your task is to group together equivalent sections from both documents and assign them a standardised title.
 
-- Document 1 sections: {{ v1_sections }}
-- Document 2 sections: {{ v2_sections }}
+Document 1 sections:
 
-Each element in these arrays has at least the following keys:
-{
-  "title": "ORIGINAL SECTION TITLE",
-  "Purpose": "Single-sentence description (not relevant to final output)",
-  "line_id": "LINE ID FROM DOC",
-  "doc_id": "DOC IDENTIFIER"
-}
+{{ v1_sections }}
+
+Document 2 sections:
+
+{{ v2_sections }}
 
 ---
 
@@ -43,8 +42,6 @@ YOUR TASK:
        ]
      }
      ```
-   - **No extraneous keys** (such as `"Purpose"`) should appear in `"mappings"`.
-   - **No extra text** outside the JSON array — only return the JSON.
 
 5. **Include All Sections**  
    - Every section from both documents must appear exactly once under one of the standardized titles.

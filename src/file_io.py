@@ -60,3 +60,9 @@ def load_txt(filename):
         text = f.read()
     print(f"✅ Loaded text from {filename}")
     return text
+
+def write_text_to_file(text, filename):
+    with open(filename, "w") as f:
+        f.write(text)
+    print(f"✅ Saved text to {filename}")
+    return filename
