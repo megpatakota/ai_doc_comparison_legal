@@ -2,8 +2,6 @@
 
 ---
 
-# Document Processing Pipeline
-
 [![Project Status](https://img.shields.io/badge/Status-In%20Development-orange)]()
 [![by Meg Patakota](https://img.shields.io/badge/by-Meg%20Patakota-blue)](https://megpatakota.co.uk)
 
@@ -44,8 +42,8 @@ The pipeline:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/document-processing-pipeline.git
-cd document-processing-pipeline
+git clone https://github.com/yourusername/ai_doc_comparison_legal.git
+cd ai_doc_comparison_legal
 ```
 
 ### Install Dependencies
@@ -65,20 +63,15 @@ poetry install
 
 ## Contributing
 
-Contributions are welcome! To contribute:
-1. **Fork the repository**.
-2. **Create a new branch** (`feature-branch`).
-3. **Submit a pull request (PR)**.
+Contributions are welcome! Please follow the guidelines below:
+1. Fork the repository.
+2. Open an issue for discussion.
+3. Submit a Pull Request with detailed descriptions of changes.
+
+I look forward to seeing how this project evolves with community input. Contact me via [my website](https://megpatakota.co.uk) for further discussions or suggestions.
 
 ---
 
 ## License
 
-This project is maintained by **Meg Patakota**. Not licensed for redistribution or commercial use without explicit permission.
-
----
-
-Let me know if you’d like any refinements! 🚀
-
-
-
+This project is maintained by **Meg Patakota**. All rights reserved. Not licensed for use or redistribution without explicit permission.
