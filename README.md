@@ -1,7 +1,5 @@
 # AI Document Comparison on Legal Documents
 
-Here’s a professional `README.md` for your GitHub repository, structured similarly to your example:
-
 ---
 
 # Document Processing Pipeline
@@ -15,8 +13,7 @@ Here’s a professional `README.md` for your GitHub repository, structured simil
 - [Overview](#overview)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Pipeline Flow](#pipeline-flow)
-- [Data Structure](#data-structure)
+- [Output](#output)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -61,46 +58,8 @@ poetry install
 ---
 # Output
 
-You can use https://markdownlivepreview.com to paste the .txt file output for better formatting and readability
----
-## Pipeline Flow
+- You can use https://markdownlivepreview.com to paste the .txt file output for better formatting and readability
 
-### 1️⃣ **Document Preprocessing**
-- Reads `.docx` input files.
-- Cleans and tokenizes text.
-- Identifies major sections.
-
-### 2️⃣ **Section Extraction**
-- Uses predefined rules or LLMs to detect and extract structured content.
-
-### 3️⃣ **Standardization**
-- Formats extracted sections into a structured output.
-- Aligns content with predefined templates.
-
-### 4️⃣ **Comparison & Analysis**
-- Compares extracted sections between two document versions.
-- Identifies differences and generates structured outputs.
-
----
-
-## Data Structure
-
-The repository follows this structure:
-
-```
-.
-├── data
-│   ├── input                    # Raw input documents
-│   ├── output                   # Processed and structured outputs
-│   ├── temp                      # Intermediate processing files
-├── notebooks                     # Jupyter Notebooks for analysis
-├── src                           # Core processing scripts
-├── templates                     # Jinja2 templates for formatting
-├── pipeline1.py                  # Main processing pipeline
-├── compare.py                    # Comparison module
-├── simple_llm.py                 # LLM-based processing
-├── README.md                      # Project documentation
-```
 
 ---
 
