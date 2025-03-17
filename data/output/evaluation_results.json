@@ -1,0 +1,18 @@
+{
+    "output_1": {
+        "completeness": 0.0,
+        "relevance": 0.0,
+        "clarity": 0.0,
+        "legal_insight": 0.0,
+        "formatting_consistency": 0.0,
+        "total_score": 0.0
+    },
+    "output_2": {
+        "completeness": 0.0,
+        "relevance": 0.0,
+        "clarity": 0.0,
+        "legal_insight": 0.0,
+        "formatting_consistency": 0.0,
+        "total_score": 0.0
+    }
+}
