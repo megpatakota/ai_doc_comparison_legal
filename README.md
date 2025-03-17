@@ -1,4 +1,4 @@
-# ss_test
+# AI Document Comparison on Legal Documents
 
 Here’s a professional `README.md` for your GitHub repository, structured similarly to your example:
 
@@ -31,6 +31,11 @@ The pipeline:
 - **Standardizes content** using a predefined template.
 - **Compares versions** of documents to highlight differences.
 
+![Process Diagram - Pipeline1](./images/mainllm.png)
+
+![Process Diagram - Pipeline2](./images/simplellm.png)
+
+
 ---
 
 ## Installation
@@ -53,50 +58,11 @@ Using Poetry:
 poetry install
 ```
 
-Or, if using `pip`:
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
+# Output
 
-## Usage
-
-### Running the Document Processing Pipeline
-
-To process input documents and extract structured sections:
-
-```bash
-python pipeline1.py --input data/input/v1.docx --output data/output/v1_sections.json
-```
-
-To compare two processed documents:
-
-```bash
-python compare.py --file1 data/output/v1_sections.json --file2 data/output/v2_sections.json --output data/output/compare_output.txt
-```
-
-To use an LLM-based approach for section extraction:
-
-```bash
-python simple_llm.py --input data/input/v1.docx --output data/output/llm_sections.json
-```
-
-### Example Output
-
-Extracted sections are stored as JSON:
-
-```json
-{
-    "Introduction": "This document provides an overview...",
-    "Objectives": "The main objectives of this study...",
-    "Conclusion": "In summary, the findings suggest..."
-}
-```
-
+You can use https://markdownlivepreview.com to paste the .txt file output for better formatting and readability
 ---
-
 ## Pipeline Flow
 
 ### 1️⃣ **Document Preprocessing**
@@ -157,4 +123,3 @@ Let me know if you’d like any refinements! 🚀
 
 
 
-https://markdownlivepreview.com
