@@ -89,5 +89,5 @@ def compare_sections():
     )
 
     response = response.choices[0].message["content"]
-    write_text_to_file(response, "data/output/compare_output_pipeline1.txt")
+    
     return response

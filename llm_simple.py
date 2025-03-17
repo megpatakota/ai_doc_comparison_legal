@@ -6,6 +6,7 @@ from litellm import completion
 from src.text_process import extract_text_from_docx
 from src.file_io import write_text_to_file
 from config import MODEL_NAME 
+from evaluation import run_eval
 
 # Load environment variables
 load_dotenv()
@@ -44,7 +45,7 @@ def simple_llm():
         response_content = response.choices[0].message.content
         
         # Write output to file
-        output_path = "data/output/compare_output_pipeline2.txt"
+        output_path = "data/output/compare_output_simple_llm.txt"
         logging.info(f"Writing output to {output_path}")
         write_text_to_file(response_content, output_path)
         
@@ -55,4 +56,5 @@ def simple_llm():
         logging.error(f"An error occurred: {str(e)}", exc_info=True)
         return None
 
-simple_llm()
+simple_llm = simple_llm()
+write_text_to_file(simple_llm, "data/output/final_output_simple_llm.txt")

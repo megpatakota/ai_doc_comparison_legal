@@ -36,7 +36,7 @@ def evaluate_output(text: str) -> Dict[str, float]:
     return evaluation_results
 
 
-def main():
+def run_eval():
     file1_path = os.path.join(output_folder, "compare_output_pipeline1.txt")
     file2_path = os.path.join(output_folder, "compare_output_pipeline2.txt")
 
@@ -55,6 +55,3 @@ def main():
 
     print(f"Evaluation results saved to {output_file}")
 
-
-if __name__ == "__main__":
-    main()

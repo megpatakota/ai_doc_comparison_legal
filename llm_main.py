@@ -1,6 +1,6 @@
 from src.text_process import extract_text_from_docx, batch_text
 from src.llm_section_extract import process_batches
-from src.file_io import save_sections, save_extract_text_from_docx, load_sections, save_to_json
+from src.file_io import save_sections, save_extract_text_from_docx, load_sections, save_to_json, write_text_to_file
 from src.standardize import standardize_sections_llm
 from src.compare import compare_sections
 import os
@@ -96,4 +96,6 @@ def standardize_sections(output_folder):
 # Call the functions as needed
 process_docx_files(input_folder, output_folder, input_temp_folder)
 standardize_sections(output_folder)
-compare_sections()
+compare_sections = compare_sections()
+write_text_to_file(compare_sections, os.path.join(output_folder, "final_output_main_llm.txt"))
+
