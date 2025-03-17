@@ -1,32 +1,35 @@
 Analyze the following text from Terms and Conditions. For each section you find:
-1. Identify the section title, these should be obvious titles and not appear as possible sub-sections.
+1. Identify the section title, these should be obvious titles and not appear as possible sub-sections. ONLY use titles that explicitly appear in the text - do not create, infer, or generate titles based on external knowledge.
 2. Read the text content that follows the section title until the next section title.
-3. Based on that section's content, write a brief one-sentence description of its main purpose.
-4. Extract the line_id from the section title's tag (the number X from id="X" in the opening tag).
-
-Return the results as a JSON list of dictionaries, where each dictionary has EXACTLY three keys:
-- "title": The section title text
-- "Purpose": A one-sentence summary based on analyzing that section's content
-- "line_id": The id number from the section title's tag
+3. Write a generic description of that section that could be used to disambiguate it.
+4. Extract the line_id from the {{text}} based of the extracted section title (the number X from id="X" in the opening tag).
 
 For example, if you find a section title in a line like:
-<line id="42">PRIVACY POLICY</line_id>
+<line id="42">TERMINATION</line_id>
+<line id="43">Some text from the TERMINATION section</line>
+...
+<line id="49">Some more text from the TERMINATION section</line>
+<line id="50">Next section title</line>
 
 The corresponding entry in your JSON output should be:
 {
-  "title": "PRIVACY POLICY",
-  "Purpose": "This section outlines how user data is collected and protected.",
-  "line_id": "42"
+  "title": "TERMINATION",
+  "description": "Outlines the conditions under which an agreement may be ended by either party, including notice requirements, breach of contract, or other specified events",
+  "start_id": "42",
+  "end_id": "49"
 }
 
 Your complete response should be a JSON array containing all identified sections:
 [
-  {"title": "TERMS OF SERVICE", "Purpose": "This section establishes the basic rules for using the platform.", "line_id": "12"},
-  {"title": "PRIVACY POLICY", "Purpose": "This section outlines how user data is collected and protected.", "line_id": "42"},
-  {"title": "REFUND POLICY", "Purpose": "This section explains the conditions under which refunds are provided.", "line_id": "78"}
+  {"title": "Terms of Use", "description": "Defines the rules and guidelines governing the use of a service, including user rights, responsibilities, and limitations.", "start_id": "12", "end_id": "23"},
+  {"title": "PRIVACY POLICY", "description": "Explains how personal data is collected, used, stored, and shared, as well as the rights of users regarding their information.", "start_id": "42", "end_id": "55"},
+  {"title": "REFUND POLICY", "description": "Specifies the conditions under which customers may request refunds, including eligibility criteria, timeframes, and any applicable fees.", "start_id": "78", "end_id": "89"}
 ]
 
-IMPORTANT: Your response MUST be a valid JSON array. Do not include any text before or after the JSON array. Do not include markdown formatting or code blocks. Just return the raw JSON array.
+IMPORTANT: 
+- Do not include any text before or after the JSON array, even the line_id or doc_id should not be part of the title extracted from the document.
+- ONLY include sections with titles that explicitly appear in the text.
+- DO NOT create or infer section titles that don't exist in the original text.
 
 Text to analyze:
 {{ text }}

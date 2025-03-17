@@ -28,6 +28,25 @@ def save_sections(sections, filename):
     
     return filename
 
+def save_to_json(data, filename):
+    with open (filename, "w") as f:
+        json_data = json.dumps(data, indent=4) # indent for pretty printing
+        f.write(json_data)
+    print(f"✅ Saved text to {filename}")
+    return data
+
+def load_from_json(filename):
+    with open(filename, "r") as f:
+        data = json.loads(f.read())
+    print(f"✅ Loaded text from {filename}")
+    return data
+
+# save the text from extract_text_from_docx to a text file
+def save_extract_text_from_docx(text, filename):
+    with open(filename, "w") as f:
+        f.write(text)
+    print(f"✅ Saved text to {filename}")
+    return filename
 
 # load the extracted sections from the JSON file
 def load_sections(filename):
@@ -35,8 +54,14 @@ def load_sections(filename):
         sections = json.load(f)
     return [Section(**section) for section in sections] 
 
-# save the text from extract_text_from_docx to a text file
-def save_extract_text_from_docx(text, filename):
+
+def load_txt(filename):
+    with open(filename, "r") as f:
+        text = f.read()
+    print(f"✅ Loaded text from {filename}")
+    return text
+
+def write_text_to_file(text, filename):
     with open(filename, "w") as f:
         f.write(text)
     print(f"✅ Saved text to {filename}")

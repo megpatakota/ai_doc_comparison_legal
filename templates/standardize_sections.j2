@@ -1,0 +1,34 @@
+You are an expert in standardising section titles in legal documents.
+I will show you two lists of sections extracted from two documents, A and B.
+For each section in document A, your task is to find the equivalent sections in document B. There may be multiple sections from document B that are equivalent to a single section in document A, or worth comparing with a section in document A.
+You should show your reasoning, when you're figuring out which sections are equivalent.
+Once you have performed the mapping, you can assign a standardized title to each group of equivalent sections.
+When I say "equivalent", I mean sections that are operationally serving the same purpose, even if their titles differ.
+
+# Examples
+
+## Examples of Equivalent Sections: These sections should be grouped together
+- "Termination" and "Ending the Agreement"
+- "Usage Rules" and "USAGE RULES"
+- "Governing Law" and "Applicable Law"
+- "Confidentiality" and "Non-Disclosure"
+- "Dispute Resolution" and "Arbitration"
+- "Introduction" and "Introduction"
+
+## Examples of Non-Equivalent Sections: These sections should not be grouped together
+- "Indemnity" and "Liability"
+- "Payment" and "Refunds"
+- "Assignment" and "Subcontracting"
+- "Termination" and "Term"
+- "Intellectual Property" and "Payment Terms"
+- "Force Majeure" and "Data Protection"
+
+I'll start you off by pre-filling some of the JSON structure. You need to fill in the blanks, i.e. "doc_b_section" and "standardised_title":
+
+{{ pre_filled_template }}
+
+And here are the sections from document B, which you need to map to the sections from document A:
+
+{{ document_b}}
+
+So you must give back the entire pre-filled JSON I showed you, with the blanks filled in. Please do so now.

@@ -1,344 +1,128 @@
 [
   {
-    "title": "INTRODUCTION TO OUR SERVICES",
-    "Purpose": "This section outlines the terms governing the use of Apple's various services and the requirements for access.",
-    "line_id": "2",
+    "title": "A  INTRODUCTION TO OUR SERVICES",
+    "description": "This section outlines the basic framework for using Apple Services, detailing what users can access, how to designate a home country, and the necessary requirements for using the services like hardware and software compatibility.",
+    "start_id": "2",
+    "end_id": "3",
     "doc_id": "2"
   },
   {
-    "title": "USING OUR SERVICES",
-    "Purpose": "This section details the process of acquiring content, including the nature of transactions and licensing agreements.",
-    "line_id": "4",
+    "title": "B  USING OUR SERVICES",
+    "description": "Explains the policies surrounding the acquisition of content via transactions, how licenses are obtained, and details the process and terms for using various payment methods.",
+    "start_id": "4",
+    "end_id": "4",
     "doc_id": "2"
   },
   {
     "title": "PAYMENTS, TAXES AND REFUNDS",
-    "Purpose": "This section explains the payment methods, billing processes, and conditions for refunds related to transactions on Apple\u2019s services.",
-    "line_id": "5",
-    "doc_id": "2"
-  },
-  {
-    "title": "Right of cancellation",
-    "Purpose": "This section explains the user's right to cancel their order within 14 days of receipt.",
-    "line_id": "9",
-    "doc_id": "2"
-  },
-  {
-    "title": "Effects of cancellation",
-    "Purpose": "This section details the process and timeframe for reimbursement after a cancellation notice.",
-    "line_id": "12",
-    "doc_id": "2"
-  },
-  {
-    "title": "Exception to the right of cancellation",
-    "Purpose": "This section outlines circumstances under which the cancellation right cannot be exercised.",
-    "line_id": "13",
+    "description": "Discusses the transaction process for acquiring content, including payment methods, taxes, order cancellations, and refunds. It also covers various scenarios when transactions might need to be canceled or refunded.",
+    "start_id": "5",
+    "end_id": "22",
     "doc_id": "2"
   },
   {
     "title": "ACCOUNT",
-    "Purpose": "This section describes the requirements and responsibilities associated with creating and maintaining an Apple ID.",
-    "line_id": "23",
+    "description": "Details account usage for Apple Services, including the creation of Apple IDs, age requirements, and maintaining account security to prevent unauthorized access or use.",
+    "start_id": "23",
+    "end_id": "26",
     "doc_id": "2"
   },
   {
     "title": "PRIVACY",
-    "Purpose": "This section states that the use of services is subject to Apple's Privacy Policy.",
-    "line_id": "27",
+    "description": "Briefly references Apple's Privacy Policy, indicating the applicability of the Privacy Policy to all users of Apple's Services.",
+    "start_id": "27",
+    "end_id": "28",
     "doc_id": "2"
   },
   {
     "title": "SERVICES AND CONTENT USAGE RULES",
-    "Purpose": "This section outlines the rules governing the use of services and content to ensure compliance.",
-    "line_id": "29",
-    "doc_id": "2"
-  },
-  {
-    "title": "Audio and Video Content Sales and Rentals:",
-    "Purpose": "This section details the rules and restrictions for the purchasing, renting, and usage of audio and video content.",
-    "line_id": "41",
-    "doc_id": "2"
-  },
-  {
-    "title": "App Store Content:",
-    "Purpose": "This section defines the types of apps and content available for download and the licenses associated with them.",
-    "line_id": "46",
-    "doc_id": "2"
-  },
-  {
-    "title": "Apple Music:",
-    "Purpose": "This section explains the streaming limitations for individual and family Apple Music memberships.",
-    "line_id": "49",
-    "doc_id": "2"
-  },
-  {
-    "title": "Apple Arcade:",
-    "Purpose": "This section discusses the download and access limitations for Apple Arcade apps based on subscription status.",
-    "line_id": "51",
-    "doc_id": "2"
-  },
-  {
-    "title": "Apple TV Content:",
-    "Purpose": "This section provides details on the streaming capabilities for Apple TV content across multiple devices.",
-    "line_id": "54",
+    "description": "Outlines permissible uses of Apple Services and Content, emphasizing rules against unauthorized usage, sharing, tampering, and maintaining integrity of play counts, downloads, and reviews.",
+    "start_id": "29",
+    "end_id": "40",
     "doc_id": "2"
   },
   {
     "title": "DOWNLOADS",
-    "Purpose": "This section outlines limitations and conditions regarding downloading content and the ability to redownload it.",
-    "line_id": "57",
+    "description": "Contains rules regarding downloading and re-downloading content, including limitations on download amounts and expiry of downloaded content.",
+    "start_id": "57",
+    "end_id": "60",
     "doc_id": "2"
   },
   {
     "title": "SUBSCRIPTIONS",
-    "Purpose": "This section explains the terms and conditions surrounding the purchase and management of subscription services.",
-    "line_id": "61",
-    "doc_id": "2"
-  },
-  {
-    "title": "CONTENT AND SERVICE AVAILABILITY",
-    "Purpose": "This section details the availability of services and content based on your home country and travel status.",
-    "line_id": "66",
+    "description": "Explains the terms for Paid Subscriptions, including automatic renewals, billing processes, and details on how to manage or cancel these subscriptions.",
+    "start_id": "61",
+    "end_id": "65",
     "doc_id": "2"
   },
   {
     "title": "THIRD-PARTY DEVICES AND EQUIPMENT",
-    "Purpose": "This section outlines the limitations and conditions for using services on non-Apple devices and with third-party equipment.",
-    "line_id": "68",
+    "description": "Describes the limitations and conditions for using Apple Services on non-Apple devices and interacting with third-party equipment.",
+    "start_id": "68",
+    "end_id": "69",
     "doc_id": "2"
   },
   {
-    "title": "YOUR SUBMISSIONS TO OUR SERVICES",
-    "Purpose": "This section describes the submission feature of the services and the compliance required with the Submissions Guidelines.",
-    "line_id": "70",
+    "title": "C  YOUR SUBMISSIONS TO OUR SERVICES",
+    "description": "Discusses the guidelines for users submitting content like reviews or ratings to Apple Services and the licensing agreement with Apple for such submitted content.",
+    "start_id": "70",
+    "end_id": "81",
     "doc_id": "2"
   },
   {
-    "title": "Submissions Guidelines",
-    "Purpose": "This section outlines the prohibited actions and content when using the Services.",
-    "line_id": "72",
-    "doc_id": "2"
-  },
-  {
-    "title": "FAMILY SHARING",
-    "Purpose": "This section details the requirements and functions of Family Sharing on Apple devices.",
-    "line_id": "82",
-    "doc_id": "2"
-  },
-  {
-    "title": "Purchase Sharing",
-    "Purpose": "This section explains how eligible content can be shared among Family members through Purchase Sharing.",
-    "line_id": "84",
-    "doc_id": "2"
-  },
-  {
-    "title": "Ask to Buy",
-    "Purpose": "This section describes the Ask to Buy feature, allowing organizers to approve transactions by underage family members.",
-    "line_id": "85",
-    "doc_id": "2"
-  },
-  {
-    "title": "Family Member changes",
-    "Purpose": "This section informs about the effects on access to content when a Family member leaves or is removed from the Family.",
-    "line_id": "86",
-    "doc_id": "2"
-  },
-  {
-    "title": "Family Sharing Rules",
-    "Purpose": "This section outlines the rules governing membership and participation in a Family Sharing group.",
-    "line_id": "87",
+    "title": "D  FAMILY SHARING",
+    "description": "Outlines the terms for Family Sharing, including how family members can share content, subscriptions, and the responsibilities of the Family organizer.",
+    "start_id": "82",
+    "end_id": "87",
     "doc_id": "2"
   },
   {
     "title": "E  SERIES PASS AND MULTI-PASS",
-    "Purpose": "This section explains the types of passes available for purchasing and receiving television content, including the conditions under which refunds may be issued for unprovided episodes.",
-    "line_id": "88",
+    "description": "Details about purchasing and receiving television content as it becomes available through series or multi-passes, including payment and availability terms.",
+    "start_id": "88",
+    "end_id": "89",
     "doc_id": "2"
   },
   {
-    "title": "ADDITIONAL APP STORE TERMS (EXCLUDING APPLE ARCADE APPS)",
-    "Purpose": "This section outlines terms related to the use and licensing of apps available on the App Store, distinguishing between Apple Apps and Third Party Apps.",
-    "line_id": "90",
-    "doc_id": "2"
-  },
-  {
-    "title": "IN-APP PURCHASES",
-    "Purpose": "This section details the rules governing in-app purchases, including authentication requirements and limitations on transferred purchases.",
-    "line_id": "93",
-    "doc_id": "2"
-  },
-  {
-    "title": "APP MAINTENANCE AND SUPPORT",
-    "Purpose": "This section clarifies the responsibilities of Apple for maintaining and supporting Apple Apps versus Third Party Apps.",
-    "line_id": "95",
-    "doc_id": "2"
-  },
-  {
-    "title": "APP BUNDLES",
-    "Purpose": "This section describes the pricing and purchasing process for apps that are sold together in bundles.",
-    "line_id": "97",
-    "doc_id": "2"
-  },
-  {
-    "title": "SEARCH RESULTS AND RANKINGS",
-    "Purpose": "This section explains how apps are ordered in search results based on various parameters including metadata and user engagement.",
-    "line_id": "99",
-    "doc_id": "2"
-  },
-  {
-    "title": "LICENSED APPLICATION END USER LICENSE AGREEMENT",
-    "Purpose": "This section states that apps available through the App Store are licensed to users rather than sold.",
-    "line_id": "101",
-    "doc_id": "2"
-  },
-  {
-    "title": "Scope of License",
-    "Purpose": "This section outlines the terms and conditions under which the user may utilize the Licensed Application.",
-    "line_id": "103",
-    "doc_id": "2"
-  },
-  {
-    "title": "Consent to Use of Data",
-    "Purpose": "This section describes the user's agreement to data collection and its usage by the Licensor for improving products and services.",
-    "line_id": "104",
-    "doc_id": "2"
-  },
-  {
-    "title": "Termination",
-    "Purpose": "This section details the conditions under which the agreement may be terminated by either party.",
-    "line_id": "105",
-    "doc_id": "2"
-  },
-  {
-    "title": "External Services",
-    "Purpose": "This section explains the user's responsibilities and risks when accessing third-party services connected to the Licensed Application.",
-    "line_id": "106",
-    "doc_id": "2"
-  },
-  {
-    "title": "WARRANTY",
-    "Purpose": "This section states that Licensor will provide the Licensed Application and any related External Services with reasonable care.",
-    "line_id": "107",
-    "doc_id": "2"
-  },
-  {
-    "title": "Limitation of Liability",
-    "Purpose": "This section outlines the circumstances under which the Licensor is not liable for loss or damage related to the use of the External Services and sets limitations on liability.",
-    "line_id": "110",
-    "doc_id": "2"
-  },
-  {
-    "title": "Export Control",
-    "Purpose": "This section specifies restrictions on the export and use of the Licensed Application in compliance with U.S. laws.",
-    "line_id": "118",
-    "doc_id": "2"
-  },
-  {
-    "title": "U.S. Government End Users",
-    "Purpose": "This section clarifies the licensing terms for U.S. government end users concerning the Licensed Application.",
-    "line_id": "119",
-    "doc_id": "2"
-  },
-  {
-    "title": "Governing Law",
-    "Purpose": "This section establishes that the Agreement will be governed by the laws of California and stipulates jurisdiction for disputes.",
-    "line_id": "120",
-    "doc_id": "2"
-  },
-  {
-    "title": "ADDITIONAL TERMS FOR CONTENT ACQUIRED FROM THIRD PARTIES",
-    "Purpose": "This section clarifies the relationship between you, Apple, and third-party content providers regarding the acquisition of content.",
-    "line_id": "123",
-    "doc_id": "2"
-  },
-  {
-    "title": "ADDITIONAL APPLE MUSIC TERMS",
-    "Purpose": "This section details the features and limitations of the iCloud Music Library associated with Apple Music subscriptions.",
-    "line_id": "125",
-    "doc_id": "2"
-  },
-  {
-    "title": "ADDITIONAL APPLE FITNESS+ TERMS",
-    "Purpose": "This section emphasizes that Apple Fitness+ is for entertainment and informational use only and not a substitute for professional medical advice.",
-    "line_id": "127",
-    "doc_id": "2"
-  },
-  {
-    "title": "CARRIER MEMBERSHIP",
-    "Purpose": "This section explains the purchase and billing dynamics of a Service membership acquired through a wireless carrier.",
-    "line_id": "129",
-    "doc_id": "2"
-  },
-  {
-    "title": "MISCELLANEOUS TERMS APPLICABLE TO ALL SERVICES",
-    "Purpose": "This section contains various terms that apply broadly to all services offered.",
-    "line_id": "131",
-    "doc_id": "2"
-  },
-  {
-    "title": "DEFINITION OF APPLE",
-    "Purpose": "This section provides specific definitions of what 'Apple' refers to in relation to different geographical regions.",
-    "line_id": "132",
-    "doc_id": "2"
-  },
-  {
-    "title": "CONTRACT CHANGES",
-    "Purpose": "This section states that Apple can modify the terms of the agreement and outlines the process for such modifications.",
-    "line_id": "140",
-    "doc_id": "2"
-  },
-  {
-    "title": "THIRD-PARTY MATERIALS",
-    "Purpose": "This section clarifies that Apple is not liable for any third-party content linked within their services.",
-    "line_id": "142",
-    "doc_id": "2"
-  },
-  {
-    "title": "INTELLECTUAL PROPERTY",
-    "Purpose": "This section emphasizes the proprietary rights Apple holds over its services and content, prohibiting unauthorized use.",
-    "line_id": "144",
-    "doc_id": "2"
-  },
-  {
-    "title": "COPYRIGHT",
-    "Purpose": "This section informs users that Apple owns the copyrights for its services and explains the process for reporting copyright infringement.",
-    "line_id": "147",
+    "title": "F  ADDITIONAL APP STORE TERMS (EXCLUDING APPLE ARCADE APPS)",
+    "description": "Describes licensing issues for App Store content, outlining the responsibilities and limitations for App Providers and Apple related to App Store transactions.",
+    "start_id": "90",
+    "end_id": "101",
     "doc_id": "2"
   },
   {
     "title": "TERMINATION AND SUSPENSION OF SERVICES",
-    "Purpose": "This section describes the conditions under which Apple can terminate or suspend services and user accounts for non-compliance with the agreement.",
-    "line_id": "165",
+    "description": "Defines the conditions under which Apple can terminate or suspend user access to services, detailing liabilities and processes Apple may undertake if terms are violated.",
+    "start_id": "165",
+    "end_id": "167",
     "doc_id": "2"
   },
   {
     "title": "DISCLAIMER OF WARRANTIES; LIABILITY LIMITATIONS",
-    "Purpose": "This section limits Apple's liability and disclaims any warranties regarding the uninterrupted or error-free provision of services.",
-    "line_id": "168",
+    "description": "This section outlines the limitations and disclaimers of Apple's warranties related to the services, specifying conditions under which Apple is not liable for damages and the risks assumed by the user during service loss or errors.",
+    "start_id": "168",
+    "end_id": "182",
     "doc_id": "2"
   },
   {
     "title": "STATUTORY EXCEPTIONS FOR PUBLIC INSTITUTIONS",
-    "Purpose": "This section clarifies the enforceability of the Agreement for qualified public educational or government institutions under applicable law.",
-    "line_id": "183",
+    "description": "Addresses institutions like public educational or government bodies, defining how certain contract terms may be invalid or unenforceable against them due to applicable laws, and how these terms should be construed.",
+    "start_id": "183",
+    "end_id": "183",
     "doc_id": "2"
   },
   {
     "title": "GOVERNING LAW",
-    "Purpose": "This section specifies the governing law and jurisdiction for disputes arising from the Agreement, outlining the conditions based on the user's location.",
-    "line_id": "185",
+    "description": "Specifies the legal framework that governs the agreement, outlining the applicable laws, jurisdictions, and legal locations for resolving disputes depending on the user's geographical location.",
+    "start_id": "185",
+    "end_id": "188",
     "doc_id": "2"
   },
   {
     "title": "OTHER PROVISIONS",
-    "Purpose": "This section outlines the entirety of the Agreement, the applicability of other laws, and the consequences of invalid provisions while preserving remaining terms.",
-    "line_id": "189",
-    "doc_id": "2"
-  },
-  {
-    "title": "Last Updated: 12 September 2022",
-    "Purpose": "This section indicates the date when the terms were last modified.",
-    "line_id": "194",
+    "description": "Covers additional aspects of the agreement, including the comprehensiveness of the agreement, conditions for enforcement and amendment, and compliance with applicable laws and regulations.",
+    "start_id": "189",
+    "end_id": "194",
     "doc_id": "2"
   }
 ]
