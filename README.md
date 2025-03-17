@@ -7,9 +7,10 @@
 
 ## Table of Contents
 - [Overview](#overview)
+    - [Methods/Approaches Used](#methodsapproaches-used)
+    - [Evaluation](#evaluation)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Output](#output)
 
 ---
 
@@ -17,6 +18,7 @@
 
 This project is a **document processing pipeline** that standardizes, extracts, and compares structured sections from input documents using **LLMs** and **text-processing techniques**. 
 
+### Methods/Approaches Used
 
 It includes two main pipelines:
 1. **Method 1 (Main LLM)**: Standard processing for extracting and comparing document sections.
@@ -30,6 +32,12 @@ It includes two main pipelines:
 ![Process Diagram - Simple LLM](./images/simplellm.png)
 
 Each of these methods have been run against three Open AI models: GPT-4o-mini, GPT-4o, and o1. The final outputs you see have been run against **o1** model as it provided stronger reasoning for the purposes of my analysis.
+
+### Evaluation
+- Evaluation of the method 1 and method 2
+    - Using a prompt template and asking the LLM to score the two outputs (each criterion is out of 4)
+    - Each criterion is out of 4 and an overall percentage grads is calculated
+    - Results in [Evaluation Results](./data/output/evaluation_results.json)
 
 ---
 
@@ -91,29 +99,11 @@ poetry run python evaluation.py
 ```
 [Output from this evaluation](data/output/evaluation_results.json)
 
----
-
-## Output
-
-The extracted and compared sections are stored as `.txt` files.
-
-- Use **Markdown Preview** tools like [Markdown Live Preview](https://markdownlivepreview.com) to format and view `.txt` outputs more clearly.
-- Example output 
-![Mock Output Example](./images/mock_output_pipeline2.png)
 
 ---
-## Evaluation
-
-- Evaluation of the simple_llm and main_llm
-    - Using a prompt template and asking the LLM to score the two outputs (each criterion is out of 4)
-    - each criterion is out of 4 and an overall percentage grads is calculated
-    - Results in [Evaluation Results](./data/output/evaluation_results.json)
-
-**Run the Evaluation:**  
-```bash
-poetry run python evaluation.py
-```
-
+## Next Steps
+- Exploration of other methods and other models beyond Open AI.
+- Updated evaluation prompt template by domain experts for a better rubric & scoring mechanism.
 
 ---
 
