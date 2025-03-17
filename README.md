@@ -92,6 +92,20 @@ The extracted and compared sections are stored as `.txt` files.
 ![Mock Output Example](./images/mock_output_pipeline2.png)
 
 ---
+## Evaluation
+
+- Evaluation of the simple_llm and main_llm
+    - Using a prompt template and asking the LLM to score the two outputs (each criterion is out of 4)
+    - each criterion is out of 4 and an overall percentage grads is calculated
+    - Results in [Evaluation Results](./data/output/evaluation_results.json)
+
+**Run the Evaluation:**  
+```bash
+poetry run python evaluation.py
+```
+
+
+---
 
 ## Contributing
 
