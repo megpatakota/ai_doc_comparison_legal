@@ -14,8 +14,6 @@ Here’s your updated `README.md`, incorporating the OpenAI API key requirement 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Output](#output)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -41,7 +39,7 @@ It includes two main pipelines:
 ## Installation
 
 ### Prerequisites
-- Python 3.13+
+- Python 3.12+
 - Poetry (for dependency management)
 - An **OpenAI API Key** for LLM-based processing
 
@@ -77,12 +75,12 @@ OPENAI_API_KEY=your-api-key-here
 
 ## Usage
 
-### Running Pipeline 1 (Standard Processing)
+### Running Pipeline 1 
 ```bash
 poetry run python pipeline1.py 
 ```
 
-### Running Pipeline 2 (LLM-based Processing)
+### Running Pipeline 2 
 ```bash
 poetry run python simple_llm.py 
 ```
@@ -91,7 +89,7 @@ poetry run python simple_llm.py
 
 ## Output
 
-The extracted and compared sections are stored as `.json` or `.txt` files.
+The extracted and compared sections are stored as `.txt` files.
 
 - Use **Markdown Preview** tools like [Markdown Live Preview](https://markdownlivepreview.com) to format and view `.txt` outputs more clearly.
 - Example output 
