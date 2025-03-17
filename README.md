@@ -23,8 +23,8 @@ The pipeline:
 - **Compares versions** of documents to highlight differences.
 
 It includes two main pipelines:
-1. **Pipeline 1**: Standard processing for extracting and comparing document sections.
-2. **Pipeline 2 (Simple LLM)**: Uses an LLM-based approach to extract structured sections.
+1. **Method 1 (Main LLM)**: Standard processing for extracting and comparing document sections.
+2. **Method 2 (Simple LLM)**: Uses an LLM-based approach to extract structured sections.
 
 ![Process Diagram - Pipeline1](./images/mainllm.png)
 
@@ -71,16 +71,24 @@ OPENAI_API_KEY=your-api-key-here
 
 ## Usage
 
-### Running Pipeline 1 
+### Running Method 1 
 ```bash
-poetry run python pipeline1.py 
+poetry run python llm_main.py 
 ```
+[Output from this method](data/output/final_output_main_llm.txt)
 
-### Running Pipeline 2 
+### Running Method 2 
 ```bash
-poetry run python simple_llm.py 
+poetry run python llm_simple.py 
 ```
+[Output from this method](data/output/final_output_simple_llm.txt)
 
+### Running Evaluation
+This evaluation method will only work if you run the above 2 methods.
+```bash
+poetry run python evaluation.py
+```
+[Output from this evaluation](data/output/evaluation_results.json)
 ---
 
 ## Output
