@@ -14,7 +14,6 @@ logger = logging.getLogger(__name__)
 # Define input and output directories
 input_folder = "data/input"
 output_folder = "data/output"
-mapping_folder = "data/output/mapping"
 input_temp_folder = "data/temp"
 
 # Ensure the output directory exists
@@ -94,7 +93,7 @@ def standardize_sections(output_folder):
 
 
 # Call the functions as needed
-process_docx_files(input_folder, output_folder, input_temp_folder)
+process_docx_files(input_folder, output_folder, input_temp_folder) # uncomment to run and comment out the next line as needed
 standardize_sections(output_folder)
 compare_sections = compare_sections()
 write_text_to_file(compare_sections, os.path.join(output_folder, "final_output_main_llm.txt"))

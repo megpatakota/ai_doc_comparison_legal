@@ -1,128 +1,170 @@
 [
   {
     "title": "A  INTRODUCTION TO OUR SERVICES",
-    "description": "This section outlines the basic framework for using Apple Services, detailing what users can access, how to designate a home country, and the necessary requirements for using the services like hardware and software compatibility.",
+    "description": "Introduces Apple's Services and basic usage requirements.",
     "start_id": "2",
     "end_id": "3",
     "doc_id": "2"
   },
   {
     "title": "B  USING OUR SERVICES",
-    "description": "Explains the policies surrounding the acquisition of content via transactions, how licenses are obtained, and details the process and terms for using various payment methods.",
+    "description": "Overview of using Apple\u2019s Services, with guidelines and responsibilities.",
     "start_id": "4",
     "end_id": "4",
     "doc_id": "2"
   },
   {
     "title": "PAYMENTS, TAXES AND REFUNDS",
-    "description": "Discusses the transaction process for acquiring content, including payment methods, taxes, order cancellations, and refunds. It also covers various scenarios when transactions might need to be canceled or refunded.",
+    "description": "Discusses payment methods, taxes, refunds, and general transaction policies.",
     "start_id": "5",
     "end_id": "22",
     "doc_id": "2"
   },
   {
     "title": "ACCOUNT",
-    "description": "Details account usage for Apple Services, including the creation of Apple IDs, age requirements, and maintaining account security to prevent unauthorized access or use.",
+    "description": "Covers required account usage, responsibilities, and user age requirements.",
     "start_id": "23",
     "end_id": "26",
     "doc_id": "2"
   },
   {
     "title": "PRIVACY",
-    "description": "Briefly references Apple's Privacy Policy, indicating the applicability of the Privacy Policy to all users of Apple's Services.",
+    "description": "Addresses how user data is handled according to Apple's Privacy Policy.",
     "start_id": "27",
     "end_id": "28",
     "doc_id": "2"
   },
   {
     "title": "SERVICES AND CONTENT USAGE RULES",
-    "description": "Outlines permissible uses of Apple Services and Content, emphasizing rules against unauthorized usage, sharing, tampering, and maintaining integrity of play counts, downloads, and reviews.",
+    "description": "Defines permissible ways to use the Services and Content, including device and usage limitations.",
     "start_id": "29",
-    "end_id": "40",
+    "end_id": "56",
     "doc_id": "2"
   },
   {
     "title": "DOWNLOADS",
-    "description": "Contains rules regarding downloading and re-downloading content, including limitations on download amounts and expiry of downloaded content.",
+    "description": "Explains rules and limitations regarding downloading content.",
     "start_id": "57",
     "end_id": "60",
     "doc_id": "2"
   },
   {
     "title": "SUBSCRIPTIONS",
-    "description": "Explains the terms for Paid Subscriptions, including automatic renewals, billing processes, and details on how to manage or cancel these subscriptions.",
+    "description": "Details recurring subscriptions, billing, and cancellations.",
     "start_id": "61",
     "end_id": "65",
     "doc_id": "2"
   },
   {
+    "title": "CONTENT AND SERVICE AVAILABILITY",
+    "description": "Describes the availability of certain content and services across different regions.",
+    "start_id": "66",
+    "end_id": "67",
+    "doc_id": "2"
+  },
+  {
     "title": "THIRD-PARTY DEVICES AND EQUIPMENT",
-    "description": "Describes the limitations and conditions for using Apple Services on non-Apple devices and interacting with third-party equipment.",
+    "description": "Covers usage limitations when using the Services on non-Apple-branded devices or equipment.",
     "start_id": "68",
     "end_id": "69",
     "doc_id": "2"
   },
   {
     "title": "C  YOUR SUBMISSIONS TO OUR SERVICES",
-    "description": "Discusses the guidelines for users submitting content like reviews or ratings to Apple Services and the licensing agreement with Apple for such submitted content.",
+    "description": "Outlines guidelines for submitting or posting user-generated materials within Apple's Services.",
     "start_id": "70",
     "end_id": "81",
     "doc_id": "2"
   },
   {
     "title": "D  FAMILY SHARING",
-    "description": "Outlines the terms for Family Sharing, including how family members can share content, subscriptions, and the responsibilities of the Family organizer.",
+    "description": "Explains the Family Sharing feature, including shared purchases and Ask to Buy.",
     "start_id": "82",
     "end_id": "87",
     "doc_id": "2"
   },
   {
     "title": "E  SERIES PASS AND MULTI-PASS",
-    "description": "Details about purchasing and receiving television content as it becomes available through series or multi-passes, including payment and availability terms.",
+    "description": "Covers purchasing and receiving television content with series or multi-pass options.",
     "start_id": "88",
     "end_id": "89",
     "doc_id": "2"
   },
   {
     "title": "F  ADDITIONAL APP STORE TERMS (EXCLUDING APPLE ARCADE APPS)",
-    "description": "Describes licensing issues for App Store content, outlining the responsibilities and limitations for App Providers and Apple related to App Store transactions.",
+    "description": "Provides additional licensing and usage rules for Apps in the App Store, excluding Apple Arcade Apps.",
     "start_id": "90",
-    "end_id": "101",
+    "end_id": "122",
+    "doc_id": "2"
+  },
+  {
+    "title": "G  ADDITIONAL TERMS FOR CONTENT ACQUIRED FROM THIRD PARTIES",
+    "description": "Addresses content obtained from third-party providers and Apple\u2019s role as an agent.",
+    "start_id": "123",
+    "end_id": "124",
+    "doc_id": "2"
+  },
+  {
+    "title": "H  ADDITIONAL APPLE MUSIC TERMS",
+    "description": "Describes additional terms specifically related to Apple Music and iCloud Music Library.",
+    "start_id": "125",
+    "end_id": "126",
+    "doc_id": "2"
+  },
+  {
+    "title": "I  ADDITIONAL APPLE FITNESS+ TERMS",
+    "description": "Explains disclaimers for the Apple Fitness+ service regarding medical advice.",
+    "start_id": "127",
+    "end_id": "128",
+    "doc_id": "2"
+  },
+  {
+    "title": "J  CARRIER MEMBERSHIP",
+    "description": "Covers the terms for purchasing a Service membership through a wireless carrier.",
+    "start_id": "129",
+    "end_id": "130",
+    "doc_id": "2"
+  },
+  {
+    "title": "K  MISCELLANEOUS TERMS APPLICABLE TO ALL SERVICES",
+    "description": "Includes various additional terms such as definitions, contract changes, third-party materials, intellectual property, and copyright info.",
+    "start_id": "131",
+    "end_id": "164",
     "doc_id": "2"
   },
   {
     "title": "TERMINATION AND SUSPENSION OF SERVICES",
-    "description": "Defines the conditions under which Apple can terminate or suspend user access to services, detailing liabilities and processes Apple may undertake if terms are violated.",
+    "description": "Sets out conditions under which Apple may terminate or suspend services for breach or other reasons.",
     "start_id": "165",
     "end_id": "167",
     "doc_id": "2"
   },
   {
     "title": "DISCLAIMER OF WARRANTIES; LIABILITY LIMITATIONS",
-    "description": "This section outlines the limitations and disclaimers of Apple's warranties related to the services, specifying conditions under which Apple is not liable for damages and the risks assumed by the user during service loss or errors.",
+    "description": "Describes disclaimers of warranties and liability limitations, including the scope of Apple's responsibilities and the responsibilities of users in case of service interruptions or security intrusions.",
     "start_id": "168",
     "end_id": "182",
     "doc_id": "2"
   },
   {
     "title": "STATUTORY EXCEPTIONS FOR PUBLIC INSTITUTIONS",
-    "description": "Addresses institutions like public educational or government bodies, defining how certain contract terms may be invalid or unenforceable against them due to applicable laws, and how these terms should be construed.",
+    "description": "Sets out exceptions for qualified public educational or government institutions, detailing how certain sections may be deemed invalid or unenforceable, and how those terms should be construed under governing law.",
     "start_id": "183",
-    "end_id": "183",
+    "end_id": "184",
     "doc_id": "2"
   },
   {
     "title": "GOVERNING LAW",
-    "description": "Specifies the legal framework that governs the agreement, outlining the applicable laws, jurisdictions, and legal locations for resolving disputes depending on the user's geographical location.",
+    "description": "Specifies the legal jurisdiction applicable to the agreement, including the forum for resolving disputes and the laws that govern the agreement.",
     "start_id": "185",
     "end_id": "188",
     "doc_id": "2"
   },
   {
     "title": "OTHER PROVISIONS",
-    "description": "Covers additional aspects of the agreement, including the comprehensiveness of the agreement, conditions for enforcement and amendment, and compliance with applicable laws and regulations.",
+    "description": "Outlines additional terms, including entire agreement provisions, exceptions for unenforceable terms, notice methods, and Apple\u2019s rights regarding compliance enforcement.",
     "start_id": "189",
-    "end_id": "194",
+    "end_id": "193",
     "doc_id": "2"
   }
 ]

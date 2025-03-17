@@ -1,240 +1,471 @@
 [
   {
     "title": "TERMS AND CONDITIONS",
-    "description": "Sets the foundational rules that govern the relationship between the user and the service provider, including acceptance of the agreement and its scope.",
+    "description": "Provides the overall name or introduction to the Terms and Conditions document.",
     "start_id": "0",
+    "end_id": "0",
+    "doc_id": "1"
+  },
+  {
+    "title": "A  ITUNES STORE, MAC APP STORE, APP STORE, AND IBOOKS STORE TERMS OF SALE",
+    "description": "Mentions the first reference to terms of sale for iTunes Store, Mac App Store, App Store, and iBooks Store. No content under this heading here, likely a placeholder or table of contents reference.",
+    "start_id": "1",
+    "end_id": "1",
+    "doc_id": "1"
+  },
+  {
+    "title": "B  ITUNES STORE TERMS AND CONDITIONS",
+    "description": "Mentions the second reference to iTunes Store Terms and Conditions. No content under this heading here, likely a placeholder or table of contents reference.",
+    "start_id": "2",
+    "end_id": "2",
+    "doc_id": "1"
+  },
+  {
+    "title": "C  MAC APP STORE, APP STORE AND IBOOKS STORE TERMS AND CONDITIONS",
+    "description": "Covers the legal agreements between you and iTunes for using the Mac App Store, App Store, and iBooks Store, including references to legal disclaimers and resources for more information.",
+    "start_id": "3",
     "end_id": "6",
     "doc_id": "1"
   },
   {
-    "title": "A ITUNES STORE, MAC APP STORE, APP STORE, AND IBOOKS STORE TERMS OF SALE",
-    "description": "Details the terms related to purchasing, including payments, taxes, refund policies, rights of cancellation, and more for transactions through iTunes and other stores.",
+    "title": "A  ITUNES STORE, MAC APP STORE, APP STORE AND IBOOKS STORE TERMS OF SALE",
+    "description": "Specifies the terms of sale for the iTunes Store, Mac App Store, App Store, and iBooks Store. No content here, likely an introduction to further details.",
     "start_id": "7",
-    "end_id": "25",
+    "end_id": "7",
+    "doc_id": "1"
+  },
+  {
+    "title": "PAYMENTS, TAXES, AND REFUND POLICY",
+    "description": "Explains the obligations for product payments, associated taxes, and the conditions under which refunds may be processed.",
+    "start_id": "8",
+    "end_id": "24",
+    "doc_id": "1"
+  },
+  {
+    "title": "1-Click\u00ae",
+    "description": "Describes the 1-Click purchase feature, how it works, and associated usage information.",
+    "start_id": "25",
+    "end_id": "26",
     "doc_id": "1"
   },
   {
     "title": "GIFT CERTIFICATES, ITUNES CARDS AND CODES, ALLOWANCES, AND CONTENT CODES",
-    "description": "Elaborates on the rules concerning the redemption and limitations of gift certificates, iTunes cards, codes, and allowances within the associated stores.",
+    "description": "Outlines rules, usage, and refundability of gift certificates, iTunes cards, content codes, and allowances.",
     "start_id": "27",
     "end_id": "31",
     "doc_id": "1"
   },
   {
     "title": "GIFTS",
-    "description": "Outlines the guidelines around purchasing and redemption of gifts within the store, emphasizing geographical limitations and technical requirements.",
+    "description": "Sets out policies for purchasing and redeeming gifts from the Stores.",
     "start_id": "32",
     "end_id": "33",
     "doc_id": "1"
   },
   {
     "title": "IMPORTANT SAFETY INFORMATION",
-    "description": "Provides safety precautions and guidelines to prevent physical discomfort or health issues during the use of product offerings from the stores.",
+    "description": "Provides guidelines and warnings to ensure safe usage of products to avoid physical discomfort or seizures.",
     "start_id": "34",
     "end_id": "35",
     "doc_id": "1"
   },
   {
     "title": "PRE-ORDERS",
-    "description": "Describes the terms and flexibility regarding placing pre-orders on the store, and outlines the conditions of cancellation.",
+    "description": "Details how pre-orders work, including charging your account and how to cancel them.",
     "start_id": "36",
     "end_id": "37",
     "doc_id": "1"
   },
   {
     "title": "FAMILY SHARING",
-    "description": "Explains the Family Sharing feature which allows shared access to store products among family members, including roles, permissions, and responsibilities.",
+    "description": "Explains the Family Sharing feature, allowing multiple family members to share eligible purchases and manage shared payment methods.",
     "start_id": "38",
     "end_id": "43",
     "doc_id": "1"
   },
   {
     "title": "ELECTRONIC CONTRACTING",
-    "description": "Affirms that user interactions and agreements within the stores are legally binding even when completed electronically.",
+    "description": "Covers the ability to form binding agreements and make transactions electronically, including required hardware/software.",
     "start_id": "44",
     "end_id": "46",
     "doc_id": "1"
   },
   {
-    "title": "B ITUNES STORE TERMS AND CONDITIONS",
-    "description": "Specifies the legal agreement governing usage of the iTunes Store service, including rights, responsibilities, and conditions for its use.",
+    "title": "B  ITUNES STORE TERMS AND CONDITIONS",
+    "description": "Introduces additional terms specifically applicable to the iTunes Store, referencing the legal agreement with iTunes SARL.",
     "start_id": "47",
     "end_id": "48",
     "doc_id": "1"
   },
   {
     "title": "THE ITUNES STORE SERVICE",
-    "description": "Describes the service offered by iTunes, including accessibility, purchase options, and licensing details.",
+    "description": "Summarizes the nature of the iTunes Store service, enabling the purchase, rental, or licensing of digital content.",
     "start_id": "49",
-    "end_id": "51",
+    "end_id": "50",
     "doc_id": "1"
   },
   {
     "title": "REQUIREMENTS FOR USE OF THE SERVICE",
-    "description": "Specifies age restrictions, geographical availability, technical requirements, and device compatibility needed to use the service.",
+    "description": "Lists conditions to access the iTunes Store, including age requirements, location restrictions, and technical prerequisites.",
     "start_id": "51",
-    "end_id": "55",
+    "end_id": "54",
     "doc_id": "1"
   },
   {
     "title": "YOUR ACCOUNT",
-    "description": "Explains the responsibility of maintaining account security, importance of keeping information accurate, and how account data is used.",
+    "description": "Addresses account creation, security, and responsibilities of the account holder, including the use of Apple ID and password.",
     "start_id": "55",
     "end_id": "58",
     "doc_id": "1"
   },
   {
     "title": "AUTOMATIC DELIVERY AND DOWNLOADING PREVIOUS PURCHASES",
-    "description": "Offers details for downloading purchased content on multiple devices, along with stipulations on device associations.",
+    "description": "Describes how iTunes Eligible Content can be automatically delivered or re-downloaded across multiple devices.",
     "start_id": "59",
-    "end_id": "69",
+    "end_id": "68",
     "doc_id": "1"
   },
   {
     "title": "ITUNES MATCH",
-    "description": "Describes the iTunes Match service, including subscription details, capability to access music across devices, and associated liabilities.",
+    "description": "Details the iTunes Match subscription service, which allows remote access to matched or uploaded music and associated features.",
     "start_id": "69",
     "end_id": "76",
     "doc_id": "1"
   },
   {
     "title": "PRIVACY",
-    "description": "Details Apple's privacy practices surrounding user data collected via features like Genius and explains how this data is leveraged for user benefits.",
+    "description": "Outlines Apple's privacy practices, including data collection for Genius recommendations and user control over data usage.",
     "start_id": "77",
     "end_id": "87",
     "doc_id": "1"
   },
   {
     "title": "CONTENT AVAILABILITY",
-    "description": "iTunes reserves the right to alter available content without prior notice.",
+    "description": "Explains that the availability and eligibility of digital content may change at any time without notice.",
     "start_id": "88",
     "end_id": "89",
     "doc_id": "1"
   },
   {
     "title": "USE OF CONTENT",
-    "description": "Outlines the licensing conditions for iTunes products and includes restrictions on content use.",
+    "description": "States that iTunes Products are licensed, not sold, and references compliance with usage rules set by iTunes and its licensors.",
     "start_id": "90",
     "end_id": "91",
     "doc_id": "1"
   },
   {
     "title": "USAGE RULES",
-    "description": "Defines specific rules governing the use of iTunes products, including personal use limitations and device restrictions.",
+    "description": "Enumerates how iTunes Products can be used, including permitted devices, copying limits, and restrictions for film rentals.",
     "start_id": "92",
-    "end_id": "105",
+    "end_id": "111",
     "doc_id": "1"
   },
   {
     "title": "CONTENT SECURITY",
-    "description": "Addresses the security measures that accompany the digital content and prohibitions against attempting to bypass them.",
+    "description": "Prohibits tampering with security technologies or frameworks that protect digital content distributed via the iTunes Store.",
     "start_id": "112",
     "end_id": "113",
     "doc_id": "1"
   },
   {
     "title": "SERVICE SECURITY",
-    "description": "Details security measures and restrictions in accessing the service, focusing on preventing unauthorized access.",
+    "description": "Addresses restrictions on accessing the Service, prohibiting unauthorized modifications or attempts to circumvent access.",
     "start_id": "114",
     "end_id": "115",
     "doc_id": "1"
   },
   {
     "title": "SEASON PASS, MULTI-PASS",
-    "description": "Outlines terms related to purchasing Season Pass and Multi-Pass, including duration, renewal, and refund policies.",
+    "description": "Defines purchase, payment, and download rules for Season Pass or Multi-Pass subscriptions, including refunds and renewal policies.",
     "start_id": "116",
     "end_id": "117",
     "doc_id": "1"
   },
   {
     "title": "HIGH-DEFINITION (HD) PRODUCTS",
-    "description": "Describes the viewing and usage conditions for HD products offered through the store.",
+    "description": "Explains compatibility requirements for HD products, including availability of standard-definition versions for non-HD devices.",
     "start_id": "118",
     "end_id": "119",
     "doc_id": "1"
   },
   {
     "title": "SUBMISSIONS TO THE SERVICE",
-    "description": "Covers user submissions to the service, describing rights, responsibilities, and permissions granted to iTunes for use of submitted content.",
+    "description": "Covers rules for submitting user materials, ensuring that submissions do not violate laws or infringe others' rights.",
     "start_id": "120",
     "end_id": "122",
     "doc_id": "1"
   },
   {
     "title": "THIRD-PARTY MATERIALS",
-    "description": "Discusses materials or services from third parties accessed via the service, releasing iTunes from liability regarding their accuracy or use.",
+    "description": "Clarifies that third-party content and links are not under iTunes' responsibility, disclaiming liability for external materials.",
     "start_id": "123",
     "end_id": "124",
     "doc_id": "1"
   },
   {
     "title": "OBJECTIONABLE MATERIAL",
-    "description": "Addresses the potential for encountering offensive material via the service and assumes no liability for such encounters.",
+    "description": "Warns users about potentially offensive or explicit content that may be encountered through the Service.",
     "start_id": "125",
     "end_id": "126",
     "doc_id": "1"
   },
   {
     "title": "INTELLECTUAL PROPERTY",
-    "description": "Clarifies the ownership of intellectual property associated with iTunes and its service, emphasizing limitations on user rights to modify or use protected materials.",
+    "description": "Establishes ownership and protection of proprietary information and materials offered through the Service.",
     "start_id": "127",
-    "end_id": "131",
+    "end_id": "132",
     "doc_id": "1"
   },
   {
     "title": "TERMINATION",
-    "description": "Describes the conditions under which iTunes can terminate the agreement or user accounts, including events of breach.",
+    "description": "Sets forth conditions under which iTunes may terminate the agreement or user access to the Service.",
     "start_id": "133",
     "end_id": "135",
     "doc_id": "1"
   },
   {
+    "title": "DISCLAIMER OF WARRANTIES; LIABILITY LIMITATIONS",
+    "description": "Limits iTunes' liability, disclaims certain warranties, and addresses situations where iTunes may be held responsible.",
+    "start_id": "136",
+    "end_id": "148",
+    "doc_id": "1"
+  },
+  {
+    "title": "CHANGES",
+    "description": "States iTunes\u2019 right to modify the Agreement or impose additional terms at any time.",
+    "start_id": "149",
+    "end_id": "150",
+    "doc_id": "1"
+  },
+  {
     "title": "MISCELLANEOUS",
-    "description": "Outlines the general provisions and stipulations not covered in other sections, and notes how the agreement supersedes prior ones.",
+    "description": "Provides concluding provisions on the agreement, covering scope, enforcement, and legal applicability.",
     "start_id": "151",
-    "end_id": "155",
+    "end_id": "156",
     "doc_id": "1"
   },
   {
-    "title": "Limitation of Liability",
-    "description": "Discusses the limitations placed on the liability of the Licensor, detailing conditions where the Licensor and its affiliates are not liable for damages, including specific breaches that may occur.",
+    "title": "C  MAC APP STORE, APP STORE AND IBOOKS STORE TERMS AND CONDITIONS",
+    "description": "Introduces the terms applicable to Apple\u2019s digital stores, including licensing and usage guidelines.",
+    "start_id": "157",
+    "end_id": "158",
+    "doc_id": "1"
+  },
+  {
+    "title": "THE MAC APP STORE, APP STORE AND IBOOKS STORE",
+    "description": "Presents an overview of the separate Apple Stores and the products available.",
+    "start_id": "159",
+    "end_id": "160",
+    "doc_id": "1"
+  },
+  {
+    "title": "REQUIREMENTS FOR USE OF THE STORES",
+    "description": "Specifies eligibility criteria, location restrictions, and technical prerequisites for users of the Stores.",
+    "start_id": "161",
+    "end_id": "164",
+    "doc_id": "1"
+  },
+  {
+    "title": "YOUR ACCOUNT",
+    "description": "Covers account setup, security, and user responsibilities related to account credentials.",
+    "start_id": "165",
+    "end_id": "168",
+    "doc_id": "1"
+  },
+  {
+    "title": "AUTOMATIC DELIVERY AND DOWNLOADING PREVIOUS PURCHASES",
+    "description": "Explains how eligible content can be auto-downloaded and re-downloaded on associated devices.",
+    "start_id": "169",
+    "end_id": "178",
+    "doc_id": "1"
+  },
+  {
+    "title": "AUTOMATIC DELIVERY OF UPDATES",
+    "description": "Describes how apps may update automatically and how users can control update settings.",
+    "start_id": "179",
+    "end_id": "180",
+    "doc_id": "1"
+  },
+  {
+    "title": "APP BUNDLES",
+    "description": "Addresses the purchase of multiple apps as a bundle and how pricing may be adjusted.",
+    "start_id": "181",
+    "end_id": "182",
+    "doc_id": "1"
+  },
+  {
+    "title": "PRIVACY",
+    "description": "Refers to Apple\u2019s privacy policy and how user data is handled within the Stores.",
+    "start_id": "183",
+    "end_id": "184",
+    "doc_id": "1"
+  },
+  {
+    "title": "USE OF PRODUCTS AND THE STORES",
+    "description": "Outlines the basic rules for using Apple\u2019s digital goods and services in the Stores.",
+    "start_id": "185",
+    "end_id": "186",
+    "doc_id": "1"
+  },
+  {
+    "title": "CONTENT SECURITY",
+    "description": "Prohibits tampering with or circumventing technical protections applied to digital content.",
+    "start_id": "187",
+    "end_id": "188",
+    "doc_id": "1"
+  },
+  {
+    "title": "STORE SECURITY",
+    "description": "Restricts unauthorized access to the Stores and unapproved modifications to official software.",
+    "start_id": "189",
+    "end_id": "192",
+    "doc_id": "1"
+  },
+  {
+    "title": "SUBMISSIONS TO THE STORES",
+    "description": "Regulates user-submitted content, including rights granted and obligations for posted materials.",
+    "start_id": "193",
+    "end_id": "195",
+    "doc_id": "1"
+  },
+  {
+    "title": "THIRD-PARTY MATERIALS",
+    "description": "Notes that some content is provided by external sources and disclaims Apple\u2019s responsibility.",
+    "start_id": "196",
+    "end_id": "197",
+    "doc_id": "1"
+  },
+  {
+    "title": "OBJECTIONABLE MATERIAL",
+    "description": "Warns that some content may be offensive or indecent and disclaims liability for such content.",
+    "start_id": "198",
+    "end_id": "199",
+    "doc_id": "1"
+  },
+  {
+    "title": "INTELLECTUAL PROPERTY",
+    "description": "Covers ownership and protection of proprietary content and trademarks in the Stores.",
+    "start_id": "200",
+    "end_id": "204",
+    "doc_id": "1"
+  },
+  {
+    "title": "TERMINATION",
+    "description": "Specifies grounds and effects of ending the agreement or restricting access to the Stores.",
+    "start_id": "205",
+    "end_id": "207",
+    "doc_id": "1"
+  },
+  {
+    "title": "DISCLAIMER OF WARRANTIES; LIABILITY LIMITATIONS",
+    "description": "Limits Apple\u2019s liability for issues arising from the Stores and clarifies warranty disclaimers.",
+    "start_id": "208",
+    "end_id": "220",
+    "doc_id": "1"
+  },
+  {
+    "title": "CHANGES",
+    "description": "Allows Apple to modify these terms and states how users will be notified and may accept them.",
+    "start_id": "221",
+    "end_id": "222",
+    "doc_id": "1"
+  },
+  {
+    "title": "MISCELLANEOUS",
+    "description": "Provides additional clauses such as governing law, notices, and enforcement measures.",
+    "start_id": "223",
+    "end_id": "228",
+    "doc_id": "1"
+  },
+  {
+    "title": "FURTHER MAC APP STORE AND APP STORE TERMS AND CONDITIONS",
+    "description": "Extends the existing terms for specific scenarios related to Apple\u2019s digital stores.",
+    "start_id": "229",
+    "end_id": "229",
+    "doc_id": "1"
+  },
+  {
+    "title": "LICENSE OF MAC APP STORE AND APP STORE PRODUCTS",
+    "description": "Establishes licensing terms for software offered through the Mac App Store and App Store.",
+    "start_id": "230",
+    "end_id": "234",
+    "doc_id": "1"
+  },
+  {
+    "title": "IN-APP PURCHASES",
+    "description": "Describes the option to acquire additional content or services within apps for a charge.",
+    "start_id": "235",
+    "end_id": "237",
+    "doc_id": "1"
+  },
+  {
+    "title": "IN-APP SUBSCRIPTIONS",
+    "description": "Outlines recurring billing features for content subscriptions and how to manage them.",
+    "start_id": "238",
+    "end_id": "239",
+    "doc_id": "1"
+  },
+  {
+    "title": "POPULAR NEAR ME",
+    "description": "Explains the location-based feature that recommends apps based on user proximity and usage data.",
+    "start_id": "240",
+    "end_id": "246",
+    "doc_id": "1"
+  },
+  {
+    "title": "MAC APP STORE PRODUCT USAGE RULES",
+    "description": "Lists conditions for downloading and using Mac apps on eligible Apple hardware.",
+    "start_id": "247",
+    "end_id": "251",
+    "doc_id": "1"
+  },
+  {
+    "title": "APP STORE PRODUCT USAGE RULES",
+    "description": "Sets out guidelines for using iOS apps, including device limits and account association.",
+    "start_id": "252",
+    "end_id": "256",
+    "doc_id": "1"
+  },
+  {
+    "title": "MAC APP STORE AND APP STORE PRODUCT MAINTENANCE AND SUPPORT",
+    "description": "Distinguishes maintenance responsibilities between Apple and third-party publishers.",
+    "start_id": "257",
+    "end_id": "258",
+    "doc_id": "1"
+  },
+  {
+    "title": "LICENSED APPLICATION END USER LICENCE AGREEMENT",
+    "description": "Defines the terms under which individual applications are licensed rather than sold to the user.",
+    "start_id": "259",
+    "end_id": "271",
+    "doc_id": "1"
+  },
+  {
+    "title": "f  Limitation of Liability ",
+    "description": "Defines the scope and limits of the Licensor's liability, including disclaimers of certain types of damages and any exceptions under the agreement.",
     "start_id": "274",
-    "end_id": "281",
-    "doc_id": "1"
-  },
-  {
-    "title": "You may not use or otherwise export or re-export",
-    "description": "Outlines the restrictions on the export and re-export of the Licensed Application, emphasizing compliance with United States laws, and detailing explicit prohibitions on transferring the application to specific countries or persons.",
-    "start_id": "282",
-    "end_id": "282",
-    "doc_id": "1"
-  },
-  {
-    "title": "The Licensed Application and related documentation",
-    "description": "Defines the Licensed Application as a Commercial Item under U.S. regulatory codes, specifying the rights granted to U.S. Government end-users and emphasizing the reservation of all unpublished rights under United States copyright laws.",
-    "start_id": "283",
-    "end_id": "283",
+    "end_id": "284",
     "doc_id": "1"
   },
   {
     "title": "FURTHER IBOOKS STORE TERMS AND CONDITIONS",
-    "description": "Provides additional terms related to the use of iBooks Store Products, clarifying the licensing agreement between users and publishers rather than with the store itself.",
+    "description": "Provides additional terms and conditions specific to the iBooks Store, detailing obligations and rights for users in relation to iBooks Store content.",
     "start_id": "285",
     "end_id": "285",
     "doc_id": "1"
   },
   {
     "title": "LICENSE OF IBOOKS STORE PRODUCTS",
-    "description": "Clarifies that iBooks Store Products are sold under a license arrangement, specifying that the license is between the user and the third-party publisher, while iTunes facilitates the sale without being a party to the license terms.",
+    "description": "Governs the licensing terms for iBooks Store Products, including usage rights, limitations, and responsibilities between the user and the Publisher.",
     "start_id": "286",
     "end_id": "288",
     "doc_id": "1"
   },
   {
     "title": "IBOOKS STORE PRODUCT USAGE RULES",
-    "description": "Lists the conditions under which iBooks Store Products can be used, including the number of devices allowed and restrictions on burning or promotional use.",
+    "description": "Specifies how iBooks Store Products may be used, including permitted devices, storage limitations, and personal use restrictions.",
     "start_id": "289",
-    "end_id": "294",
+    "end_id": "295",
     "doc_id": "1"
   }
 ]

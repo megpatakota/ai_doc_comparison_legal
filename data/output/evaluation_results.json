@@ -1,82 +1,82 @@
 {
-    "output_1": {
+    "output_main_llm": {
         "results": [
             {
                 "criterion": "comprehensiveness_and_depth",
-                "reasoning": "The analysis successfully identifies and examines major sections and differences between the two legal documents. Terminology, structure, and legal implications are addressed, though a few subtle variations could have been explored more thoroughly.",
+                "reasoning": "The analysis effectively addresses the key sections and highlights most differences. However, certain nuanced changes (e.g., procedural modifications in dispute resolution) receive minimal attention, indicating some room for further detail.",
                 "score": 3
             },
             {
                 "criterion": "accuracy_and_validity",
-                "reasoning": "All comparisons and referenced sections are factually correct and reflect the content and context of both documents accurately, with no evidence of misinterpretation.",
-                "score": 4
-            },
-            {
-                "criterion": "organization_and_clarity",
-                "reasoning": "The analysis is well-organized with a logical flow, clear headings, and structured sections. Transitions between topics could be slightly improved for smoother readability.",
-                "score": 3
-            },
-            {
-                "criterion": "critical_analysis_and_insight",
-                "reasoning": "The analysis provides thoughtful observations and addresses key implications, although the critical evaluation of certain aspects could be deepened to enhance reader understanding.",
-                "score": 3
-            },
-            {
-                "criterion": "legal_and_practical_implications",
-                "reasoning": "The document highlights significant legal and practical consequences for stakeholders with relevant examples. However, some risks could have been explored further for a comprehensive understanding.",
-                "score": 3
-            },
-            {
-                "criterion": "presentation_of_comparative_data",
-                "reasoning": "The table is well-formatted with precise labels and descriptions, effectively highlighting key differences and complementing the written analysis.",
-                "score": 4
-            },
-            {
-                "criterion": "writing_quality",
-                "reasoning": "The writing is clear and professional with minimal errors. The tone is suitable for the audience, and technical terms are utilized correctly throughout.",
-                "score": 4
-            }
-        ],
-        "grade": 85.71428571428571
-    },
-    "output_2": {
-        "results": [
-            {
-                "criterion": "comprehensiveness_and_depth",
-                "reasoning": "The analysis thoroughly covers all major sections, and details differences and nuances between the documents. It identifies key terminology variations, structural differences, and the impact on parties involved. However, it missed a few subtle variations which could have enriched the analysis further.",
-                "score": 3
-            },
-            {
-                "criterion": "accuracy_and_validity",
-                "reasoning": "The comparisons drawn in the analysis are predominantly accurate with respect to the documents. There were minor inaccuracies noted in a few instances, but they did not hinder the overall validity.",
+                "reasoning": "Overall, the references to sections and the interpretation of clauses are correct. There are only minor oversights in distinguishing how specific terms affect different parties, but nothing that significantly undermines the credibility.",
                 "score": 3
             },
             {
                 "criterion": "organization_and_clarity",
-                "reasoning": "The analysis is logically structured with clear sections and a coherent flow. The transitions between different sections are mostly smooth, aiding understanding. A more defined introduction would further enhance clarity.",
+                "reasoning": "The analysis is divided into clear sections for major themes, and the transitions are mostly logical. A more explicit summary at the end could have improved flow.",
                 "score": 3
             },
             {
                 "criterion": "critical_analysis_and_insight",
-                "reasoning": "While the analysis provides useful observations and addresses implications to an extent, it lacks a deeper dive into potential risks and benefits for stakeholders, limiting the depth of critical evaluation.",
+                "reasoning": "Although the analysis moves beyond surface-level differences, it does not squarely address certain broader consequences (e.g., potential conflicts with third-party obligations). More thorough stakeholder impact discussion would enhance critical insight.",
                 "score": 2
             },
             {
                 "criterion": "legal_and_practical_implications",
-                "reasoning": "The analysis adequately discusses legal and practical implications but fails to provide a comprehensive examination or integrate examples that could have made the narrative more insightful.",
+                "reasoning": "Key legal ramifications are described adequately, and some potential outcomes are explored. However, the explanation of practical effects on end-users and businesses could be expanded.",
                 "score": 3
             },
             {
                 "criterion": "presentation_of_comparative_data",
-                "reasoning": "The table provided is clear and presents the differences effectively, but it could benefit from additional detail and better formatting to improve clarity and complement the narrative more fully.",
+                "reasoning": "The table is clear and labeled, highlighting each primary difference. Additional clarifications in the notes could improve understanding of smaller but still relevant changes.",
                 "score": 3
             },
             {
                 "criterion": "writing_quality",
-                "reasoning": "The writing is generally clear and professional with appropriate use of technical terms. There are minor errors that do not significantly impact understanding. The tone is consistent and suitable for a legal context.",
+                "reasoning": "Writing style is concise and generally professional, with only a few minor grammar and formatting errors. Terminology and tone are appropriate for a legal document analysis.",
                 "score": 3
             }
         ],
         "grade": 71.42857142857143
+    },
+    "output_simple_llm": {
+        "results": [
+            {
+                "criterion": "comprehensiveness_and_depth",
+                "reasoning": "The analysis examines all key sections of both documents in detail and provides examples of variations in terminology and structure. It thoroughly explores potential areas of difference and demonstrates a strong grasp of nuances.",
+                "score": 4
+            },
+            {
+                "criterion": "accuracy_and_validity",
+                "reasoning": "References to specific clauses and sections are largely correct, and the summary aligns accurately with the source documents. No significant misunderstandings or distortions were observed.",
+                "score": 4
+            },
+            {
+                "criterion": "organization_and_clarity",
+                "reasoning": "The content is generally well-structured with clear headings and a logical flow from introduction to conclusion. Although the transitions between some sections could be smoother, the organization supports comprehension.",
+                "score": 3
+            },
+            {
+                "criterion": "critical_analysis_and_insight",
+                "reasoning": "The analysis moves beyond a mere listing of differences and explores their potential impact on the parties. Some nuanced discussion of future scenarios could be deeper, but it is still thoughtful overall.",
+                "score": 3
+            },
+            {
+                "criterion": "legal_and_practical_implications",
+                "reasoning": "Key legal ramifications and practical outcomes of each change are explained with examples. The discussion addresses potential risks and benefits for stakeholders in a mostly clear manner, demonstrating good practical understanding.",
+                "score": 4
+            },
+            {
+                "criterion": "presentation_of_comparative_data",
+                "reasoning": "A comparative table is included and generally clear, though some column descriptions could be more precise. It successfully highlights major distinctions and complements the text-based analysis.",
+                "score": 3
+            },
+            {
+                "criterion": "writing_quality",
+                "reasoning": "The writing is concise, professional, and appropriate for legal analysis. Minor grammatical slips do not hinder readability or credibility.",
+                "score": 3
+            }
+        ],
+        "grade": 85.71428571428571
     }
 }
