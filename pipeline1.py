@@ -94,6 +94,6 @@ def standardize_sections(output_folder):
 
 
 # Call the functions as needed
-# process_docx_files(input_folder, output_folder, input_temp_folder)
-# standardize_sections(output_folder)
+process_docx_files(input_folder, output_folder, input_temp_folder)
+standardize_sections(output_folder)
 compare_sections()

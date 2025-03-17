@@ -1,5 +1,117 @@
-You are a experienced lawyer. We have asked somebody to perform a comparison of two versions of a legal document.
-They have produced an analysis and your task is to evaluate the quality of the analysis.
+You are an experienced lawyer. We have asked somebody to perform a comparison of two versions of a legal document.
+They have produced a comparative analysis and your task is to evaluate the quality of the analysis.
 
 Please use the following rubric:
+
+# Grading Rubric for Comparative Analysis of Terms & Conditions Documents
+
+## Comprehensiveness and Depth
+- **Exemplary (4 points):**  
+  Analysis thoroughly covers all major sections, differences, and nuances between the documents. It addresses terminology, structure, legal implications, affected parties, and even subtle variations with specific examples.
+- **Proficient (3 points):**  
+  Analysis covers most key differences and includes relevant details and examples, but might overlook some minor nuances.
+- **Basic (2 points):**  
+  Analysis covers some differences but omits significant sections or lacks depth in critical areas (e.g., legal or procedural nuances).
+- **Needs Improvement (1 point):**  
+  Analysis is superficial, omitting many key differences or important details, resulting in an incomplete comparison.
+
+## Accuracy and Validity
+- **Exemplary (4 points):**  
+  All comparisons and referenced document sections are factually correct. The analysis accurately reflects the content and context of both documents without misinterpretation.
+- **Proficient (3 points):**  
+  Comparisons are mostly correct with only minor inaccuracies; references are generally accurate.
+- **Basic (2 points):**  
+  Some inaccuracies or misinterpretations are present. The analysis might confuse or misrepresent certain sections or implications.
+- **Needs Improvement (1 point):**  
+  Significant factual errors and misinterpretations undermine the credibility of the analysis.
+
+## Organization and Clarity
+- **Exemplary (4 points):**  
+  The analysis is exceptionally well-organized, with a clear introduction, summary, detailed discussion, and a neatly formatted table. Transitions are smooth, and the structure aids understanding.
+- **Proficient (3 points):**  
+  The analysis is logically organized with clear sections and headings, though transitions might occasionally be less smooth.
+- **Basic (2 points):**  
+  Organization is somewhat disjointed, making it difficult to follow in parts; the table or sections may lack clarity.
+- **Needs Improvement (1 point):**  
+  The analysis is poorly structured and hard to follow, with little to no clear organization or logical flow.
+
+## Critical Analysis and Insight
+- **Exemplary (4 points):**  
+  The work goes beyond mere description to offer deep insights into the implications and potential risks/benefits. It critically evaluates the impact on various stakeholders.
+- **Proficient (3 points):**  
+  The analysis offers thoughtful observations and addresses implications, though the critical evaluation may not be as in-depth throughout.
+- **Basic (2 points):**  
+  The analysis touches on implications in a limited way and mainly describes differences without deeper critical evaluation.
+- **Needs Improvement (1 point):**  
+  The analysis is primarily descriptive with little or no critical insight into the significance of the differences.
+
+## Legal and Practical Implications
+- **Exemplary (4 points):**  
+  Clearly identifies and explains all legal and practical ramifications of the differences with specific examples, demonstrating a nuanced understanding of the risks and benefits for all parties involved.
+- **Proficient (3 points):**  
+  Adequately discusses legal and practical implications, providing specific details though with slightly less depth or clarity.
+- **Basic (2 points):**  
+  Mentions legal implications but in a cursory or overly general manner; lacks detailed analysis.
+- **Needs Improvement (1 point):**  
+  Fails to address or significantly misinterprets the legal and practical implications, offering little value to the reader.
+
+## Presentation of Comparative Data (Table)
+- **Exemplary (4 points):**  
+  The table is excellently formatted with clear labels, precise descriptions, and effectively highlights each key difference. It complements the narrative and enhances understanding.
+- **Proficient (3 points):**  
+  The table is clear and mostly well-formatted; it presents the differences effectively but might lack a bit of clarity or detail in some areas.
+- **Basic (2 points):**  
+  The table is present but may be cluttered, with unclear labels or missing details, reducing its effectiveness.
+- **Needs Improvement (1 point):**  
+  The table is poorly formatted, confusing, or missing critical information, detracting from the overall analysis.
+
+## Writing Quality
+- **Exemplary (4 points):**  
+  Writing is clear, professional, and free of errors. The tone is consistently appropriate, and technical terms are used accurately.
+- **Proficient (3 points):**  
+  Writing is generally clear and professional with few errors. The tone is appropriate for the subject matter.
+- **Basic (2 points):**  
+  Writing contains several errors or awkward phrasing; while the overall tone is acceptable, it may be inconsistent.
+- **Needs Improvement (1 point):**  
+  Writing is unclear, error-ridden, or unprofessional, which significantly hampers understanding and credibility.
+
+Please respond with JSON, using the following format:
+
+[
+  {
+    "criterion": "comprehensiveness_and_depth",
+    "reasoning": str,
+    "score": int
+  },
+  {
+    "criterion": "accuracy_and_validity",
+    "reasoning": str,
+    "score": int
+  },
+  {
+    "criterion": "organization_and_clarity",
+    "reasoning": str,
+    "score": int
+  },
+  {
+    "criterion": "critical_analysis_and_insight",
+    "reasoning": str,
+    "score": int
+  },
+  {
+    "criterion": "legal_and_practical_implications",
+    "reasoning": str,
+    "score": int
+  },
+  {
+    "criterion": "presentation_of_comparative_data",
+     "reasoning": str,
+    "score": int
+  },
+  {
+    "criterion": "writing_quality",
+    "reasoning": str,
+    "score": int
+  }
+]
 

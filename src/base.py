@@ -26,3 +26,11 @@ class StandardizedSection(BaseModel):
 
 class StandardizedSections(BaseModel):
     sections: List[StandardizedSection]
+
+class EvaluationResult(BaseModel):
+    criterion: str
+    reasoning: str
+    score: int
+
+class EvaluationResults(BaseModel):
+    results: List[EvaluationResult]
