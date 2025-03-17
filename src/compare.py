@@ -1,6 +1,6 @@
 from jinja2 import Environment, FileSystemLoader
 from litellm import completion
-
+from config import MODEL_NAME
 from .file_io import load_from_json, load_sections, load_txt, write_text_to_file
 
 
@@ -82,7 +82,7 @@ def compare_sections():
         unmapped_sections_text=unmapped_sections_text,
     )
     response = completion(
-        model="gpt-4o-mini",
+        model=MODEL_NAME,
         temperature=1,  # Adjust the temperature to control the randomness of the output
         messages=[{"role": "user", "content": compare_template}],
         # response_format=StandardizedSections,

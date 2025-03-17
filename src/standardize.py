@@ -5,6 +5,7 @@ from litellm import completion
 from jinja2 import Environment, FileSystemLoader
 from src.base import StandardizedSections
 from src.file_io import load_sections, save_to_json
+from config import MODEL_NAME
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -42,8 +43,7 @@ def standardize_sections_llm(v1_sections, v2_sections) -> List[StandardizedSecti
     )
 
     response = completion(
-        model="gpt-4o",
-        temperature=1,  # Adjust the temperature to control the randomness of the output
+        model=MODEL_NAME,
         messages=[{"role": "user", "content": standardize_sections_prompt}],
         response_format=StandardizedSections,
     )

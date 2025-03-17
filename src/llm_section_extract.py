@@ -8,6 +8,7 @@ from typing import List
 import os
 from dotenv import load_dotenv
 from src.base import Section, Sections
+from config import MODEL_NAME
 
 # Configure logging
 logging.basicConfig(
@@ -38,7 +39,7 @@ def extract_titles(batch_text: str) -> List[Section]:
     
     # Send prompt to LLM
     response = completion(
-        model="gpt-4o",
+        model=MODEL_NAME,
         temperature=1,
         messages=[{"role": "user", "content": prompt}],
         response_format=Sections

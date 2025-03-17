@@ -5,6 +5,7 @@ import jinja2
 from litellm import completion
 from src.text_process import extract_text_from_docx
 from src.file_io import write_text_to_file
+from config import MODEL_NAME 
 
 # Load environment variables
 load_dotenv()
@@ -36,7 +37,7 @@ def simple_llm():
         # Call LLM API
         logging.info("Calling LLM completion API")
         response = completion(
-            model="o1",  # Gemini model = gemini/gemini-1.5-pro
+            model=MODEL_NAME,  # Gemini model = gemini/gemini-1.5-pro
             messages=[{"role": "user", "content": simple_llm_prompt}]
         )
         
