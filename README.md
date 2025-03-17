@@ -17,18 +17,19 @@
 
 This project is a **document processing pipeline** that standardizes, extracts, and compares structured sections from input documents using **LLMs** and **text-processing techniques**. 
 
-The pipeline:
-- **Extracts key sections** from `.docx` legal documents.
-- **Standardizes content** using a predefined template.
-- **Compares versions** of documents to highlight differences.
 
 It includes two main pipelines:
 1. **Method 1 (Main LLM)**: Standard processing for extracting and comparing document sections.
+    - **Extracts key sections** from `.docx` legal documents.
+    - **Standardizes content** using a predefined template.
+    - **Compares versions** of documents to highlight differences.
+![Process Diagram - Main LLM](./images/mainllm.png)
+
 2. **Method 2 (Simple LLM)**: Uses an LLM-based approach to extract structured sections.
+    - Uses the entire document text as is and the LLM receives the entire document.
+![Process Diagram - Simple LLM](./images/simplellm.png)
 
-![Process Diagram - Pipeline1](./images/mainllm.png)
-
-![Process Diagram - Pipeline2](./images/simplellm.png)
+Each of these methods have been run against three Open AI models: GPT-4o-mini, GPT-4o, and o1. The final outputs you see have been run against **o1** model as it provided stronger reasoning for the purposes of my analysis.
 
 ---
 
