@@ -31,7 +31,7 @@ It includes two main pipelines:
     - Uses the entire document text as is and the LLM receives the entire document.
 ![Process Diagram - Simple LLM](./images/simplellm.png)
 
-Each of these methods have been run against three Open AI models: GPT-4o-mini, GPT-4o, and o1. The final outputs you see have been run against **o1** model as it provided stronger reasoning for the purposes of my analysis.
+Each of these methods have been run against three Open AI models: GPT-4o-mini, GPT-4o, and o1. The final outputs you see have been run against `o1` model as it provided stronger reasoning for the purposes of my analysis.
 
 ### Evaluation
 - Evaluation of the method 1 and method 2
@@ -75,6 +75,7 @@ Alternatively, create a `.env` file in the project root:
 ```
 OPENAI_API_KEY=your-api-key-here
 ```
+Note that the default model is set to `gpt-4o-mini` due to cost implications but feel free to change the config.py file to choose a better performing model like `gpt-4o` or `o1`
 
 ---
 
