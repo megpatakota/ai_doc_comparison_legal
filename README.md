@@ -31,7 +31,7 @@ It includes two main pipelines:
     - Uses the entire document text as is and the LLM receives the entire document.
 ![Process Diagram - Simple LLM](./images/simplellm.png)
 
-Each of these methods have been run against three Open AI models: GPT-4o-mini, GPT-4o, and o1. The final outputs you see have been run against `o1` model as it provided stronger reasoning for the purposes of my analysis.
+Each of these methods have been run against three OpenAI models: GPT-4o-mini, GPT-4o, and o1. The final outputs you see have been run against `o1` model as it provided stronger reasoning for the purposes of my analysis.
 
 ### Evaluation
 - Evaluation of the method 1 and method 2
@@ -103,8 +103,19 @@ poetry run python evaluation.py
 
 ---
 ## Next Steps
-- Exploration of other methods and other models beyond Open AI.
-- Updated evaluation prompt template by domain experts for a better rubric & scoring mechanism.
+- Expand Model Exploration beyond OpenAI
+    - Test with Anthropic Claude, Mistral, and Gemini models to compare outputs beyond OpenAI models.
+- Refine Evaluation Metrics & Scoring
+    - Collaborate with domain experts (e.g., legal professionals) to refine the rubric and scoring mechanism.
+    - Introduce explainability techniques to justify why an output scores higher/lower.
+    - Benchmark against human-reviewed legal document comparisons for a more robust evaluation.
+- Optimize Cost vs. Performance Trade-Offs
+    - Investigate token efficiency: Reduce token usage without compromising output quality.
+    - Implement adaptive model selection: Run cheaper models for simple tasks and switch to higher-cost models for complex sections.
+- Improve Processing Pipeline
+    - Introduce multi-stage document chunking to improve extraction accuracy.
+    - Use vector-based retrieval (e.g., FAISS, Pinecone) for better structured comparisons.
+    - Add error-handling & retry mechanisms for more robust processing.
 
 ---
 
