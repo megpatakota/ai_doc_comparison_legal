@@ -106,6 +106,8 @@ poetry run python evaluation.py
 ## Next Steps
 - Expand Model Exploration beyond OpenAI
     - Test with Anthropic Claude, Mistral, and Gemini models to compare outputs beyond OpenAI models.
+- Explore more prompting techniques
+    - e.g., zero-shot, few-shot, chain-of-thought prompting, role-based prompting, etc.
 - Refine Evaluation Metrics & Scoring
     - Collaborate with domain experts (e.g., legal professionals) to refine the rubric and scoring mechanism.
     - Introduce explainability techniques to justify why an output scores higher/lower.
